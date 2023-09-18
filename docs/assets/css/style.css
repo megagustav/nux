@@ -88,7 +88,7 @@ p {
 
 nav {
 	margin-top: var(--dist-sm);
-	margin-bottom: var(--dist-lg);
+	margin-bottom: var(--dist-xxl);
 }
 
 nav ul {
