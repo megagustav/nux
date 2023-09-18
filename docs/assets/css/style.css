@@ -76,6 +76,7 @@ h5 {
 
 p {
 	margin-bottom: var(--dist-sm);
+	max-width: var(--width-chars);
 }
 
 /* navigation */
@@ -85,9 +86,13 @@ nav {
 	margin-bottom: var(--dist-lg);
 }
 
+nav .active {
+	font-weight: var(--weight-500);
+}
+
 nav ul {
 	display: inline-flex;
-	width: 100%;
+	width: var(--width-full);
 	border-bottom: var(--line-sm) solid var(--grey300);
 }
 
@@ -95,4 +100,8 @@ nav ul li {
 	list-style: none;
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
+}
+
+nav ul li:first-of-type {
+	padding-left: unset;
 }
