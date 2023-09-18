@@ -88,6 +88,10 @@ figcaption, .discreet {
 	color: var(--grey600);
 }
 
+figcaption {
+	font-size: var(--text-xs);
+}
+
 /* navigation */
 
 nav {
