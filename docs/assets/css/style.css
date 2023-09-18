@@ -88,11 +88,11 @@ nav {
 nav ul {
 	display: inline-flex;
 	width: 100%;
+	border-bottom: var(--line-sm) solid var(--grey300);
 }
 
 nav ul li {
 	list-style: none;
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
-	border-bottom: var(--line-sm) solid var(--grey300);
 }
