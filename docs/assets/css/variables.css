@@ -36,9 +36,9 @@
 
 	/* lines */
 
-	--line-sm: 2px;
-	--line-md: 3px;
-	--line-lg: 4px;
+	--line-sm: 1pt;
+	--line-md: 2pt;
+	--line-lg: 3pt;
 
 	/* distances */
 

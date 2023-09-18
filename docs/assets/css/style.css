@@ -6,6 +6,7 @@ html, body {
 	font-family: var(--font-primary);
 	font-weight: var(--weight-400);
 	font-size: var(--text-sm);
+	line-height: var(--leading-md);
 	font-smooth: auto;
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
@@ -24,11 +25,11 @@ body {
 	margin-block-end: unset;
 	margin-inline-start: unset;
 	margin-inline-end: unset;
-	transition: 0.2s ease-in-out;
+	transition: var(--time-sm) ease-in-out;
 }
 
 *:hover {
-	transition: 0.2s ease-in-out;
+	transition: var(--time-xs) ease-in-out;
 }
 
 /* typography */
@@ -74,9 +75,29 @@ h3 {
 }
 
 h4, h5 {
+	margin-top: var(--dist-sm);
+	margin-bottom: var(--dist-sm);
 	font-weight: var(--weight-500);
 }
 
 p {
 	margin-bottom: var(--dist-sm);
+}
+
+/* navigation */
+
+nav {
+	margin-top: var(--dist-sm);
+	margin-bottom: var(--dist-lg);
+}
+
+nav ul {
+	display: inline-flex;
+}
+
+nav ul li {
+	list-style: none;
+	display: block;
+	padding: var(--dist-xs) var(--dist-sm);
+	border-bottom: var(--line-sm) solid var(--grey300);
 }
