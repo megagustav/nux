@@ -123,3 +123,9 @@ footer {
 	background: var(--blue50);
 	width: var(--width-full);
 }
+
+@media only screen and (min-width: 40em) {
+	.float-right {
+		float: right;
+	}
+}
