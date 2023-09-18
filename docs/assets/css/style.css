@@ -47,6 +47,7 @@ a:hover {
 h1 {
 	font-size: var(--text-xl);
 	color: var(--blue600);
+	line-height: var(--leading-sm);
 }
 
 h1, h2 {
@@ -128,8 +129,9 @@ nav ul li:first-of-type {
 /* structure */
 
 footer {
-	margin-top: auto;
-	padding-top: var(--dist-lg);
+	margin-top: max(auto, var(--dist-xxl));
+	padding-top: var(--dist-xxl);
+	padding-bottom: var(--dist-xxl);
 	background: var(--blue50);
 	width: var(--width-full);
 }
