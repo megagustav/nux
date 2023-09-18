@@ -14,6 +14,11 @@ html, body {
 	font-display: swap;
 }
 
+body {
+	margin-top: var(--dist-lg);
+	margin-bottom: var(--dist-lg);
+}
+
 * {
 	margin-block-start: unset;
 	margin-block-end: unset;
@@ -38,18 +43,22 @@ a:hover {
 
 h1 {
 	font-size: var(--text-xl);
+	margin-bottom: var(--dist-sm);
 }
 
 h2 {
 	font-size: var(--text-lg);
+	margin-bottom: var(--dist-lg);
 }
 
 h3 {
 	font-size: var(--text-md);
+	margin-bottom: var(--dist-md);
 }
 
 h4, h5 {
 	font-size: var(--text-sm);
+	margin-bottom: var(--dist-md);
 }
 
 h5 {
@@ -66,4 +75,8 @@ h3 {
 
 h4, h5 {
 	font-weight: var(--weight-500);
+}
+
+p {
+	margin-bottom: var(--dist-sm);
 }
