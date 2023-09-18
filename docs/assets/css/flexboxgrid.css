@@ -8,7 +8,7 @@
 } */
 
 .pad-0 {
-  padding-left: unset;
+  padding-left: unset !important;
 }
 
 .row {
