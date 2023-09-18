@@ -11,13 +11,16 @@ html, body {
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
 	color: var(--grey900);
-	min-height: 100vh;
 	font-display: swap;
 }
 
 body {
 	margin-top: var(--dist-lg);
 	margin-bottom: var(--dist-lg);
+}
+
+main {
+	min-height: 100vh;
 }
 
 * {
