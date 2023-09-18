@@ -17,10 +17,9 @@ html, body {
 body {
 	margin-top: var(--dist-lg);
 	margin-bottom: var(--dist-lg);
-}
-
-main {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 * {
