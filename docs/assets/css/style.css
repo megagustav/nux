@@ -46,6 +46,7 @@ a:hover {
 h1 {
 	font-size: var(--text-xl);
 	margin-bottom: var(--dist-sm);
+	color: var(--blue400);
 }
 
 h1, h2 {
@@ -55,11 +56,12 @@ h1, h2 {
 h2 {
 	font-size: var(--text-lg);
 	margin-bottom: var(--dist-lg);
+	color: var(--blue600);
 }
 
 h3 {
 	font-size: var(--text-md);
-	font-weight: var(--weight-300);
+	font-weight: var(--weight-400);
 	margin-bottom: var(--dist-md);
 }
 
@@ -101,9 +103,16 @@ nav ul li {
 	list-style: none;
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
-	color: var(--blue600);
+	color: var(--blue500);
 }
 
 nav ul li:first-of-type {
 	padding-left: unset;
+}
+
+footer {
+	margin-top: auto;
+	padding-top: var(--dist-lg);
+	background: var(--blue50);
+	width: var(--width-full);
 }
