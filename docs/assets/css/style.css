@@ -15,8 +15,7 @@ html, body {
 }
 
 body {
-	margin-top: var(--dist-lg);
-	margin-bottom: var(--dist-lg);
+	margin-top: var(--dist-xxl);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -47,7 +46,6 @@ a:hover {
 
 h1 {
 	font-size: var(--text-xl);
-	margin-bottom: var(--dist-sm);
 	color: var(--blue600);
 }
 
@@ -124,6 +122,10 @@ footer {
 	padding-top: var(--dist-lg);
 	background: var(--blue50);
 	width: var(--width-full);
+}
+
+footer p {
+	margin-top: var(--dist-lg);
 }
 
 .discreet {
