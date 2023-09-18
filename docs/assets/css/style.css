@@ -1,0 +1,61 @@
+/* resets */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-primary);
+	font-weight: var(--weight-400);
+	font-size: var(--text-md);
+	font-smooth: auto;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+	color: var(--grey900);
+	min-height: 100vh;
+	font-display: swap;
+}
+
+* {
+	margin-block-start: unset;
+	margin-block-end: unset;
+	margin-inline-start: unset;
+	margin-inline-end: unset;
+	transition: 0.2s ease-in-out;
+}
+
+*:hover {
+	transition: 0.2s ease-in-out;
+}
+
+/* typography */
+
+a {
+	color: var(--brand);
+}
+
+a:hover {
+	color: var(--blue600);
+}
+
+h1 {
+	font-size: var(--text-xxl);
+}
+
+h2 {
+	font-size: var(--text-xl);
+}
+
+h3 {
+	font-size: var(--text-lg);
+}
+
+h4, h5 {
+	font-size: var(--text-md);
+}
+
+h1, h2 {
+	font-weight: var(--weight-600);
+}
+
+h3, h4, h5 {
+	font-weight: var(--weight-500);
+}
