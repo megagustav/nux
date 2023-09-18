@@ -48,6 +48,10 @@ h1 {
 	margin-bottom: var(--dist-sm);
 }
 
+h1, h2 {
+	font-weight: var(--weight-200);
+}
+
 h2 {
 	font-size: var(--text-lg);
 	margin-bottom: var(--dist-lg);
@@ -55,30 +59,19 @@ h2 {
 
 h3 {
 	font-size: var(--text-md);
+	font-weight: var(--weight-300);
 	margin-bottom: var(--dist-md);
 }
 
 h4, h5 {
 	font-size: var(--text-sm);
-	margin-bottom: var(--dist-md);
+	margin-top: var(--dist-lg);
+	margin-bottom: var(--dist-sm);
+	font-weight: var(--weight-500);
 }
 
 h5 {
 	color: var(--grey300);
-}
-
-h1, h2 {
-	font-weight: var(--weight-200);
-}
-
-h3 {
-	font-weight: var(--weight-300);
-}
-
-h4, h5 {
-	margin-top: var(--dist-sm);
-	margin-bottom: var(--dist-sm);
-	font-weight: var(--weight-500);
 }
 
 p {
