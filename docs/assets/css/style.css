@@ -67,15 +67,18 @@ h3 {
 	margin-bottom: var(--dist-md);
 }
 
+h4 {
+	font-weight: var(--weight-500);
+}
+
 h4, h5 {
 	font-size: var(--text-sm);
 	margin-top: var(--dist-lg);
 	margin-bottom: var(--dist-sm);
-	font-weight: var(--weight-500);
 }
 
 h5 {
-	color: var(--grey300);
+	font-weight: var(--weight-400);
 }
 
 p {
