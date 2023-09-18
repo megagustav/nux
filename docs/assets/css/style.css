@@ -59,7 +59,7 @@ h1, h2 {
 h2 {
 	font-size: var(--text-lg);
 	margin-bottom: var(--dist-lg);
-	color: var(--blu4600);
+	color: var(--blue400);
 }
 
 h3 {
