@@ -49,7 +49,7 @@ a:hover {
 h1 {
 	font-size: var(--text-xl);
 	margin-bottom: var(--dist-sm);
-	color: var(--blue400);
+	color: var(--blue600);
 }
 
 h1, h2 {
@@ -59,7 +59,7 @@ h1, h2 {
 h2 {
 	font-size: var(--text-lg);
 	margin-bottom: var(--dist-lg);
-	color: var(--blue600);
+	color: var(--blu4600);
 }
 
 h3 {
@@ -91,11 +91,6 @@ nav {
 	margin-bottom: var(--dist-lg);
 }
 
-nav .active {
-	font-weight: var(--weight-500);
-	color: var(--blue900);
-}
-
 nav ul {
 	display: inline-flex;
 	width: var(--width-full);
@@ -107,6 +102,15 @@ nav ul li {
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
 	color: var(--blue500);
+}
+
+nav ul li.active {
+	font-weight: var(--weight-500);
+	color: var(--blue900);
+}
+
+nav ul li:hover {
+	color: var(--blue900);
 }
 
 nav ul li:first-of-type {
