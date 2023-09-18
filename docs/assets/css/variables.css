@@ -49,15 +49,21 @@
 	--dist-lg:  1.25rem;
 	--dist-xl:  1.5rem;
 	--dist-xxl: 2rem;
-	
 	--width-chars: 70ch;
 	--width-full:  100%;
+	
+	/* shadows */
+	--shadow-0: 0 0 2px rgba(0,0,0,0.16);
+	--shadow-1: 0 2px 4px rgba(0,0,0,0.08);
+	--shadow-2: 0 4px 8px rgba(0,0,0,0.08);
+	--shadow-3: 0 6px 12px rgba(0,0,0,0.08);
+	--shadow-4: 0 8px 16px rgba(0,0,0,0.08);
 
 	/* radius */
 
-	--rad-xs: 0.35rem;
-	--rad-sm: 0.5rem;
-	--rad-md: 1rem;
+	--rad-xs: 0.15rem;
+	--rad-sm: 0.3rem;
+	--rad-md: 0.5rem;
 
 	/* animation */
 

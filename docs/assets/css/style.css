@@ -84,6 +84,10 @@ p {
 	max-width: var(--width-chars);
 }
 
+figcaption, .discreet {
+	color: var(--grey600);
+}
+
 /* navigation */
 
 nav {
@@ -117,6 +121,8 @@ nav ul li:first-of-type {
 	padding-left: unset;
 }
 
+/* structure */
+
 footer {
 	margin-top: auto;
 	padding-top: var(--dist-lg);
@@ -128,9 +134,18 @@ footer p {
 	margin-top: var(--dist-lg);
 }
 
-.discreet {
-	color: var(--grey600);
+/* ui elements */
+
+img {
+	border-radius: var(--rad-xs);
+	box-shadow: var(--shadow-0), var(--shadow-1);
 }
+
+figure {
+	margin-bottom: var(--dist-md);
+}
+
+/* responsive */
 
 @media only screen and (min-width: 40em) {
 	.float-right {
