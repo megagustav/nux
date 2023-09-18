@@ -53,9 +53,13 @@ h4, h5 {
 }
 
 h1, h2 {
-	font-weight: var(--weight-600);
+	font-weight: var(--weight-200);
 }
 
-h3, h4, h5 {
+h3 {
+	font-weight: var(--weight-300);
+}
+
+h4, h5 {
 	font-weight: var(--weight-500);
 }
