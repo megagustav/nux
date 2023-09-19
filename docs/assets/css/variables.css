@@ -76,7 +76,7 @@
 	--brand: var(--blue500);
 	--accent: var(--orange400);
 
-	--blue50: #f8fafd;
+	--blue50: #fbfbff;
 	--blue100: #f1f7fe;
 	--blue150: #ecf4fd;
 	--blue200: #dbebf7;
@@ -85,7 +85,7 @@
 	--blue350: #75a0b6;
 	--blue400: #608bab;
 	--blue500: #3E7692;
-	--blue600: #294f6f;
+	--blue600: #315C72;
 	--blue700: #233c50;
 	--blue800: #121e3a;
 	--blue900: #000e38;
@@ -100,7 +100,7 @@
 	--grey300: #c5cdd2;
 	--grey400: #a1b0bb;
 	--grey500: #8699a6;
-	--grey600: #68778D;
+	--grey600: #617085;
 	--grey700: #47545e;
 	--grey800: #333d45;
 	--grey900: #262e34;
