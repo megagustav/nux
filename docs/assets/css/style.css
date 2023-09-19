@@ -190,6 +190,7 @@ input {
 	line-height: var(--leading-md);
 	margin-bottom: -1pt;
 	width: calc(100% - 1.5rem - var(--line-sm));
+	border-radius: unset;
 }
 
 /* Step 1: Common Properties: All required to make icons render reliably */
