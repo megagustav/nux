@@ -182,24 +182,18 @@ svg.svg-inline--fa {
 	margin-right: var(--dist-xxs);
 }
 
+.searchfield {
+	margin-bottom: -1pt;
+	width: calc(100% - 1.5rem - var(--line-sm));
+}
+
 input {
 	padding: var(--dist-xs) var(--dist-sm);
 	font-size: var(--text-sm);
 	color: var(--grey600);
 	border: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
-	margin-bottom: -1pt;
-	width: calc(100% - 1.5rem - var(--line-sm));
 	border-radius: unset;
-}
-
-input::placeholder::before {
-	display: none;
-}
-
-input::placeholder::before {
-	font-family: var(--fa-font-solid);
-	content: "\f002";
 }
 
 aside article {
