@@ -98,16 +98,21 @@ figcaption, .discreet {
 	color: var(--blue700);
 }
 
-article header h4 a {
+article header h4 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
-	margin-top: var(--dist-sm);
+	margin-top: var(--dist-xxs);
 	margin-bottom: var(--dist-xxs);
+}
+
+article header h4 a {
 	color: var(--grey700);
+	text-decoration: none;
 }
 
 article header h4 a:hover {
 	color: var(--blue600);
+	text-decoration: underline;
 }
 
 article header .meta {
@@ -172,6 +177,14 @@ footer p {
 }
 
 /* ui elements */
+
+aside article {
+	border: var(--line-sm) solid var(--grey300);
+	border-radius: var(--rad-xs);
+	padding: var(--dist-md) var(--dist-lg);
+	margin-left: calc(var(--dist-lg) * -1);
+	margin-right: calc(var(--dist-lg) * -1);
+}
 
 img {
 	border-radius: var(--rad-xs);
