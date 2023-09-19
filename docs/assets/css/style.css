@@ -149,6 +149,7 @@ footer {
 	padding-bottom: var(--dist-xxl);
 	background: var(--blue50);
 	width: var(--width-full);
+	color: var(--grey800);
 }
 
 footer p {
