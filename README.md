@@ -4,7 +4,7 @@ This repo is for the website of the Natural User Experience Institute. The conte
 
 ## Team
 
-NUX is
-- name
-- name
-- name
+NUXI is
+- Marco Ajovalasit
+- Gustav Moorhouse
+- You
