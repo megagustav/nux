@@ -189,7 +189,7 @@ input {
 	border: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
 	margin-bottom: -1pt;
-	width: calc(100% - 1.5rem);
+	width: calc(100% - 1.5rem - 2 * var(--line-sm));
 }
 
 ::placeholder::before {
@@ -250,7 +250,7 @@ figure {
 	input {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
-		width: calc(100% - 1rem);
+		width: calc(100% - 1rem - 2 * var(--line-sm));
 	}
 	
 	aside {
