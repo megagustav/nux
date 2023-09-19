@@ -234,6 +234,11 @@ img {
 	height: auto;
 }
 
+img.logo {
+	border-radius: unset;
+	box-shadow: unset;
+}
+
 figure {
 	margin-bottom: var(--dist-md);
 }
