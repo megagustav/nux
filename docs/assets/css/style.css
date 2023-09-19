@@ -45,7 +45,7 @@ h1 {
 
 h2 {
 	font-size: var(--text-md);
-	margin-bottom: var(--dist-lg);
+	margin-bottom: var(--dist-xxs);
 	color: var(--blue500);
 	font-weight: var(--weight-400);
 }
@@ -159,10 +159,6 @@ header {
 	margin-top: var(--dist-lg);
 }
 
-.header {
-	display: inline-flex;
-}
-
 main {
 	margin-bottom: var(--dist-xxl);
 }
@@ -247,14 +243,24 @@ figure {
 	margin-bottom: var(--dist-md);
 }
 
-.sponsors #emplution {
-	fill: var(--blue400);
+.logo#nuxi {
+	max-height: 66px;
+	align-self: center;
+	margin-right: var(--dist-sm);
+}
+
+.logo#emplution {
 	max-width: 10rem;
 }
 
 /* responsive */
 
 @media only screen and (min-width: 40em) {
+	
+	.header {
+		display: inline-flex;
+		margin-bottom: var(--dist-lg);
+	}
 	
 	input {
 		border: unset;
