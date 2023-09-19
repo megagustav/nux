@@ -250,6 +250,7 @@ figure {
 	input {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
+		width: calc(100% - 1rem);
 	}
 	
 	aside {
