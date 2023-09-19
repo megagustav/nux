@@ -125,12 +125,12 @@ article header .meta {
 nav {
 	margin-top: var(--dist-sm);
 	margin-bottom: var(--dist-xxl);
+	width: var(--width-full);
+	border-bottom: var(--line-sm) solid var(--grey300);
 }
 
 nav ul {
 	display: inline-flex;
-	width: var(--width-full);
-	border-bottom: var(--line-sm) solid var(--grey300);
 }
 
 nav ul li {
@@ -185,7 +185,7 @@ svg {
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
-	padding: var(--dist-md) unset;
+	padding: var(--dist-md) 0;
 }
 
 aside article:first-of-type {
