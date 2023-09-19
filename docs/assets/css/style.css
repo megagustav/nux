@@ -159,6 +159,10 @@ header {
 	margin-top: var(--dist-lg);
 }
 
+.header {
+	display: inline-flex;
+}
+
 main {
 	margin-bottom: var(--dist-xxl);
 }
