@@ -98,6 +98,23 @@ figcaption, .discreet {
 	color: var(--blue700);
 }
 
+article header h4 a {
+	font-size: var(--text-sm);
+	font-weight: var(--weight-500);
+	margin-top: var(--dist-sm);
+	margin-bottom: var(--dist-xxs);
+	color: var(--grey700);
+}
+
+article header h4 a:hover {
+	color: var(--blue600);
+}
+
+article header .meta {
+	color: var(--grey600);
+	font-size: var(--text-xs);
+}
+
 /* navigation */
 
 nav {
