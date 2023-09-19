@@ -218,7 +218,8 @@ aside article header {
 	margin-top: var(--dist-xxs);
 }
 
-aside .about {
+aside .about,
+aside .sponsors {
 	margin-top: var(--dist-xxl);
 }
 
@@ -236,21 +237,12 @@ figure {
 /* responsive */
 
 @media only screen and (min-width: 40em) {
-}
-
-@media only screen and (min-width: 62em) {
-	.float-right {
-		float: right;
-	}
-	
 	input {
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		background: var(--blue50);
 	}
-}
-
-@media only screen and (min-width: 75em) {
+	
 	input {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
@@ -260,4 +252,13 @@ figure {
 	aside {
 		border-left: var(--line-sm) solid var(--grey300);
 	}
+}
+
+@media only screen and (min-width: 62em) {
+	.float-right {
+		float: right;
+	}
+}
+
+@media only screen and (min-width: 75em) {
 }
