@@ -180,6 +180,7 @@ footer p {
 
 svg.svg-inline--fa {
 	margin-right: var(--dist-xxs);
+	fill: var(--grey600);
 }
 
 .searchfield {
