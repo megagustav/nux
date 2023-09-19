@@ -196,7 +196,10 @@ input {
 }
 
 input::placeholder::before {
-	content: url(../assets/img/search.svg);
+	content: url('../assets/img/search.svg');
+	background-size: 1em 1em;
+	height: 1em;
+	width: 1em;
 }
 
 aside article {
