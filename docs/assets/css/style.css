@@ -205,6 +205,10 @@ aside article header {
 	margin-top: var(--dist-xxs);
 }
 
+aside .about {
+	margin-top: var(--dist-xxl);
+}
+
 img {
 	border-radius: var(--rad-xs);
 	box-shadow: var(--shadow-0), var(--shadow-1);
