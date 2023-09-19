@@ -37,7 +37,7 @@ body {
 /* typography */
 
 h1 {
-	font-size: var(--text-xl);
+	font-size: var(--text-lg);
 	color: var(--blue600);
 	line-height: var(--leading-sm);
 }
@@ -47,9 +47,9 @@ h1, h2 {
 }
 
 h2 {
-	font-size: var(--text-lg);
+	font-size: var(--text-md);
 	margin-bottom: var(--dist-lg);
-	color: var(--blue400);
+	color: var(--blue500);
 }
 
 h3 {
