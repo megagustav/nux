@@ -258,6 +258,7 @@ figure {
 		width: calc(100% - 1rem - var(--line-sm));
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
+		background: var(--blue50);
 	}
 	
 	aside {
