@@ -189,12 +189,13 @@ input {
 	border: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
 	margin-bottom: -1pt;
-	width: calc(100% - 1.5rem - 2 * var(--line-sm));
+	width: calc(100% - 1.5rem - var(--line-sm));
 }
 
 ::placeholder::before {
-	font-family: "fontAwesome"; 
-	content:'\f002';
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 900;
+	content: "\f002";
 }
 
 aside article {
@@ -250,7 +251,7 @@ figure {
 	input {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
-		width: calc(100% - 1rem - 2 * var(--line-sm));
+		width: calc(100% - 1rem - var(--line-sm));
 	}
 	
 	aside {
