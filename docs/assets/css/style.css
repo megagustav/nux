@@ -38,18 +38,16 @@ body {
 
 h1 {
 	font-size: var(--text-lg);
+	font-weight: var(--weight-200);
 	color: var(--blue600);
 	line-height: var(--leading-sm);
-}
-
-h1, h2 {
-	font-weight: var(--weight-200);
 }
 
 h2 {
 	font-size: var(--text-md);
 	margin-bottom: var(--dist-lg);
 	color: var(--blue500);
+	font-weight: var(--weight-400);
 }
 
 h3 {
@@ -132,6 +130,14 @@ nav ul li:first-of-type {
 }
 
 /* structure */
+
+header {
+	margin-top: var(--dist-lg);
+}
+
+main {
+	margin-bottom: var(--dist-xxl);
+}
 
 footer {
 	margin-top: var(--dist-xxl);
