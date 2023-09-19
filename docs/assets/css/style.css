@@ -261,6 +261,8 @@ figure {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
+		border: unset;
+		border-left: var(--line-sm) solid var(--grey300);
 	}
 	
 	aside {
