@@ -189,6 +189,7 @@ input {
 	border: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
 	margin-bottom: -1pt;
+	width: calc(100% - 1rem);
 }
 
 input::-webkit-input-placeholder:before,
