@@ -247,9 +247,9 @@ figure {
 	display: none;
 }
 
-.logo.small {
+.logo.small#nuxi {
 	max-width: 20px;
-	margin-bottom: var(--dist-sm);
+	margin-top: var(--dist-sm);
 	margin-bottom: var(--dist-lg); 
 }
 
