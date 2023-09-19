@@ -237,6 +237,7 @@ figure {
 /* responsive */
 
 @media only screen and (min-width: 40em) {
+	
 	input {
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
@@ -248,17 +249,20 @@ figure {
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
+}
+
+@media only screen and (min-width: 62em) {
+	
+	.float-right {
+		float: right;
+	}
 	
 	aside {
+		margin-top: var(--dist-xxl);
 		border-left: var(--line-sm) solid var(--grey300);
 	}
 }
 
-@media only screen and (min-width: 62em) {
-	.float-right {
-		float: right;
-	}
-}
-
 @media only screen and (min-width: 75em) {
+	
 }
