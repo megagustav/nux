@@ -185,12 +185,14 @@ svg.svg-inline--fa {
 }
 
 .searchfield {
+	margin-bottom: -1pt;
 	width: calc(100% - 1.5rem - var(--line-sm));
 	border: var(--line-sm) solid var(--grey300);
+	padding: var(--dist-xs) var(--dist-sm);
 }
 
 input {
-	padding: var(--dist-xs) var(--dist-sm);
+	padding: unset;
 	font-size: var(--text-sm);
 	color: var(--grey600);
 	line-height: var(--leading-md);
@@ -248,12 +250,10 @@ figure {
 }
 
 @media only screen and (min-width: 75em) {
-	input {
-		padding: var(--dist-xs) 1rem;
-	}
 	
 	.searchfield {
 		width: calc(100% - 1rem - var(--line-sm));
+		padding: var(--dist-xs) 1rem;
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		background: var(--blue50);
