@@ -193,15 +193,10 @@ input {
 	border-radius: unset;
 }
 
-/* Step 1: Common Properties
-These styles are required to make icons render reliably */
 .icon::before {
-	display: inline-block;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
+	display: none;
 }
 
-/* Step 2: Reference Individual Icons */
 .search::before {
 	font-family: var(--fa-font-solid);
 	content: "\f002";
