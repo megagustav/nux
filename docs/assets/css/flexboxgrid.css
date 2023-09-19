@@ -1,11 +1,9 @@
 /* Uncomment and set these variables to customize the grid. */
 
-/* .container-fluid {
+.container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
-} */
+}
 
 .pad-0 {
   padding-left: unset !important;
@@ -253,9 +251,9 @@
 }
 
 @media only screen and (min-width: 40em) {
-  /* .container {
-    width: 46rem;
-  } */
+  .container {
+    max-width: 46rem;
+  }
 
   .col-sm,
   .col-sm-1,
@@ -468,9 +466,9 @@
 }
 
 @media only screen and (min-width: 62em) {
-  /* .container {
-    width: 61rem;
-  } */
+  .container {
+    max-width: 61rem;
+  }
 
   .col-md,
   .col-md-1,
@@ -683,9 +681,9 @@
 }
 
 @media only screen and (min-width: 75em) {
-  /* .container {
-    width: 71rem;
-  } */
+  .container {
+    max-width: 71rem;
+  }
 
   .col-lg,
   .col-lg-1,
