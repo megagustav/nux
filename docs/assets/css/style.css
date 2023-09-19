@@ -68,10 +68,11 @@ h5 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
 	margin-top: var(--dist-sm);
-	margin-bottom: var(--dist-sm);
+	margin-bottom: var(--dist-xxs);
 }
 
 p {
+	margin-top: unset;
 	margin-bottom: var(--dist-sm);
 	max-width: var(--width-chars);
 }
@@ -86,6 +87,7 @@ a:hover {
 
 figcaption, .discreet {
 	color: var(--grey700);
+	font-size: var(--text-xs);
 }
 
 .discreet a {
@@ -94,10 +96,6 @@ figcaption, .discreet {
 
 .discreet a:hover {
 	color: var(--blue700);
-}
-
-figcaption {
-	font-size: var(--text-xs);
 }
 
 /* navigation */
@@ -149,7 +147,7 @@ footer {
 	padding-bottom: var(--dist-xxl);
 	background: var(--blue50);
 	width: var(--width-full);
-	color: var(--grey800);
+	color: var(--grey700);
 }
 
 footer p {
