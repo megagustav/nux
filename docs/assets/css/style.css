@@ -198,6 +198,7 @@ input {
 	line-height: var(--leading-md);
 	border: unset;
 	border-radius: unset;
+	background: unset;
 }
 
 aside article {
