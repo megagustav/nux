@@ -100,13 +100,13 @@ figcaption, .discreet {
 
 article header h4 {
 	font-size: var(--text-sm);
-	font-weight: var(--weight-500);
+	font-weight: var(--weight-400);
 	margin-top: unset;
 	margin-bottom: unset;
 }
 
 article header h4 a {
-	color: var(--grey700);
+	color: var(--blue500);
 	text-decoration: none;
 }
 
@@ -185,11 +185,11 @@ svg {
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
-	padding: var(--dist-md) 0;
+	padding: var(--dist-xs) 0;
 }
 
 aside article:first-of-type {
-	margin-top: calc(var(--dist-xxs) * -1);
+	margin-top: calc(var(--line-sm) * -1);
 	padding-top: unset;
 }
 
