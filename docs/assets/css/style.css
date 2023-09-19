@@ -102,7 +102,7 @@ article header h4 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
 	margin-top: var(--dist-xxs);
-	margin-bottom: var(--dist-xxs);
+	margin-bottom: unset;
 }
 
 article header h4 a {
@@ -183,7 +183,11 @@ aside article {
 	border-radius: var(--rad-xs);
 	padding: var(--dist-md) var(--dist-lg);
 	margin-left: calc(var(--dist-lg) * -1);
-	margin-right: calc(var(--dist-lg) * -1);
+	margin-top: calc(var(--line-sm) * -1);
+}
+
+aside article header {
+	margin-top: var(--dist-xxs);
 }
 
 img {
