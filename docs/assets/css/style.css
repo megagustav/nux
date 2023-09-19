@@ -36,14 +36,6 @@ body {
 
 /* typography */
 
-a {
-	color: var(--blue400);
-}
-
-a:hover {
-	color: var(--blue600);
-}
-
 h1 {
 	font-size: var(--text-xl);
 	color: var(--blue600);
@@ -84,8 +76,20 @@ p {
 	max-width: var(--width-chars);
 }
 
+a {
+	color: var(--blue400);
+}
+
+a:hover {
+	color: var(--blue600);
+}
+
 figcaption, .discreet {
 	color: var(--grey600);
+}
+
+.discreet a {
+	color: var(--blue500);
 }
 
 figcaption {
