@@ -61,23 +61,22 @@ h2 {
 }
 
 h3 {
-	font-size: var(--text-md);
-	font-weight: var(--weight-400);
 	margin-bottom: var(--dist-md);
 }
 
-h4 {
-	font-weight: var(--weight-500);
+h3, h4 {
+	font-size: var(--text-md);
+	font-weight: var(--weight-400);
 }
 
 h4, h5 {
-	font-size: var(--text-sm);
 	margin-top: var(--dist-lg);
 	margin-bottom: var(--dist-sm);
 }
 
 h5 {
-	font-weight: var(--weight-400);
+	font-size: var(--text-sm);
+	font-weight: var(--weight-500);
 }
 
 p {
@@ -129,7 +128,7 @@ nav ul li:first-of-type {
 /* structure */
 
 footer {
-	margin-top: max(auto, var(--dist-xxl));
+	margin-top: var(--dist-xxl);
 	padding-top: var(--dist-xxl);
 	padding-bottom: var(--dist-xxl);
 	background: var(--blue50);
