@@ -101,7 +101,7 @@ figcaption, .discreet {
 article header h4 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
-	margin-top: var(--dist-xxs);
+	margin-top: unset;
 	margin-bottom: unset;
 }
 
@@ -179,11 +179,22 @@ footer p {
 /* ui elements */
 
 aside article {
-	border: var(--line-sm) solid var(--grey300);
+	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
-	padding: var(--dist-md) var(--dist-lg);
-	margin-left: calc(var(--dist-lg) * -1);
-	margin-top: calc(var(--line-sm) * -1);
+	padding: var(--dist-md) unset;
+}
+
+aside article:first-of-type {
+	margin-top: calc(var(--dist-xxs) * -1);
+	padding-top: unset;
+}
+
+aside article:first-of-type header {
+	margin-top: unset;
+}
+
+aside article:last-of-type {
+	border-bottom: unset;
 }
 
 aside article header {
