@@ -191,13 +191,6 @@ input {
 	margin-bottom: -1pt;
 }
 
-input.search::-webkit-input-placeholder:before,
-input.search::-moz-placeholder::before,
-input.search:-ms-input-placeholder::before {
-	font-family: "fontAwesome"; 
-	content:'\f002  ';
-}
-
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
