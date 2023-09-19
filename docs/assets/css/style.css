@@ -191,6 +191,14 @@ input {
 	margin-bottom: -1pt;
 }
 
+input::-webkit-input-placeholder:before,
+input::-moz-placeholder::before,
+input:-ms-input-placeholder::before,
+input::placeholder::before {
+	font-family: "fontAwesome"; 
+	content:'\f002';
+}
+
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
