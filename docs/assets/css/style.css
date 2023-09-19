@@ -178,8 +178,8 @@ footer p {
 
 /* ui elements */
 
-svg {
-	margin-right: var(--dist-xs);
+svg.svg-inline--fa {
+	margin-right: var(--dist-xxs);
 }
 
 aside article {
