@@ -193,11 +193,11 @@ input {
 	border-radius: unset;
 }
 
-.icon::before {
+input::placeholder::before {
 	display: none;
 }
 
-.search::before {
+input::placeholder::before {
 	font-family: var(--fa-font-solid);
 	content: "\f002";
 }
