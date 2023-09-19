@@ -178,6 +178,10 @@ footer p {
 
 /* ui elements */
 
+svg {
+	margin-right: var(--dist-xs);
+}
+
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
