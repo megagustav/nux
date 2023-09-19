@@ -181,19 +181,20 @@ footer p {
 svg.svg-inline--fa {
 	margin-right: var(--dist-xxs);
 	fill: var(--grey600);
+	vertical-align: -0.1em;
 }
 
 .searchfield {
-	margin-bottom: -1pt;
 	width: calc(100% - 1.5rem - var(--line-sm));
+	border: var(--line-sm) solid var(--grey300);
 }
 
 input {
 	padding: var(--dist-xs) var(--dist-sm);
 	font-size: var(--text-sm);
 	color: var(--grey600);
-	border: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
+	border: unset;
 	border-radius: unset;
 }
 
@@ -249,11 +250,14 @@ figure {
 @media only screen and (min-width: 75em) {
 	input {
 		padding: var(--dist-xs) 1rem;
-		margin-left: -1rem;
+	}
+	
+	.searchfield {
 		width: calc(100% - 1rem - var(--line-sm));
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		background: var(--blue50);
+		margin-left: -1rem;
 	}
 	
 	aside {
