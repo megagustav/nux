@@ -182,6 +182,16 @@ svg.svg-inline--fa {
 	margin-right: var(--dist-xxs);
 }
 
+input {
+	padding: var(--dist-xs) var(--dist-sm);
+	font-size: var(--text-sm);
+	color: var(--grey600);
+	margin-left: calc(var(--dist-sm) * -1);
+	border: var(--line-sm) solid var(--grey300);
+	line-height: var(--leading-md);
+	margin-bottom: -1pt;
+}
+
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
@@ -232,4 +242,9 @@ figure {
 }
 
 @media only screen and (min-width: 75em) {
+	aside {
+		border-left: var(--line-sm) solid var(--grey300);
+		padding-left: var(--dist-sm);
+		margin-left: calc(var(--dist-sm) * -1);
+	}
 }
