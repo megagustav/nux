@@ -53,11 +53,11 @@
 	--width-full:  100%;
 	
 	/* shadows */
-	--shadow-0: 0 0 2px rgba(0,0,0,0.16);
-	--shadow-1: 0 2px 4px rgba(0,0,0,0.08);
-	--shadow-2: 0 4px 8px rgba(0,0,0,0.08);
-	--shadow-3: 0 6px 12px rgba(0,0,0,0.08);
-	--shadow-4: 0 8px 16px rgba(0,0,0,0.08);
+	--shadow-0: 0 0 2px rgba(41,79,111,0.16);
+	--shadow-1: 0 2px 4px rgba(41,79,111,0.08);
+	--shadow-2: 0 4px 8px rgba(41,79,111,0.08);
+	--shadow-3: 0 6px 12px rgba(41,79,111,0.08);
+	--shadow-4: 0 8px 16px rgba(41,79,111,0.08);
 
 	/* radius */
 
