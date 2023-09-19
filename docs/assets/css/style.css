@@ -192,7 +192,7 @@ input {
 	width: calc(100% - 1.5rem - var(--line-sm));
 }
 
-::placeholder::before {
+input::placeholder::before {
 	font-family: "Font Awesome 5 Pro";
 	font-weight: 900;
 	content: "\f002";
