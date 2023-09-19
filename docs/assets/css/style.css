@@ -195,15 +195,6 @@ input {
 	border-radius: unset;
 }
 
-.search::placeholder::before {
-	display: inline-flex;
-	content: 'hi';
-	background-image: url('../img/search.svg');
-	background-size: 1em 1em;
-	height: 1em;
-	width: 1em;
-}
-
 aside article {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	border-radius: var(--rad-xs);
@@ -251,6 +242,12 @@ figure {
 	.float-right {
 		float: right;
 	}
+	
+	input {
+		border: unset;
+		border-left: var(--line-sm) solid var(--grey300);
+		background: var(--blue50);
+	}
 }
 
 @media only screen and (min-width: 75em) {
@@ -258,9 +255,6 @@ figure {
 		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
-		border: unset;
-		border-left: var(--line-sm) solid var(--grey300);
-		background: var(--blue50);
 	}
 	
 	aside {
