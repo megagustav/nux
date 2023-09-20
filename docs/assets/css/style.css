@@ -226,10 +226,6 @@ aside .sponsors {
 	margin-top: var(--dist-xxl);
 }
 
-.sponsors p {
-	margin-top: var(--dist-md);
-}
-
 img {
 	border-radius: var(--rad-xs);
 	box-shadow: var(--shadow-0), var(--shadow-1);
@@ -240,8 +236,6 @@ img {
 img.logo {
 	border-radius: unset;
 	box-shadow: unset;
-	display: block;
-	margin-top: var(--dist-md);
 }
 
 figure {
@@ -277,6 +271,15 @@ a.home-logo {
 
 .logo:hover {
 	filter: brightness(90%);
+}
+
+.sponsors img.logo {
+	display: block;
+	margin-top: var(--dist-md);
+}
+
+.sponsors p {
+	margin-top: var(--dist-md);
 }
 
 /* responsive */
