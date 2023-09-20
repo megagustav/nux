@@ -330,11 +330,6 @@ a.home-logo {
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
-	
-	.warning {
-		border-radius: var(--rad-md);
-		border: var(--line-sm) solid var(--orange500);
-	}
 }
 
 @media only screen and (min-width: 62em) {
@@ -346,6 +341,11 @@ a.home-logo {
 	aside {
 		margin-top: unset;
 		border-left: var(--line-sm) solid var(--grey300);
+	}
+	
+	.warning {
+		border-radius: var(--rad-md);
+		border: var(--line-sm) solid var(--orange500);
 	}
 }
 
