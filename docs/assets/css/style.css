@@ -106,14 +106,14 @@ article header h4 {
 }
 
 article header h4 a,
-nav ul a,
+nav ul li a,
 a h1,
 a h2 {
 	text-decoration: none;
 }
 
 article header h4 a:hover,
-nav ul a li:hover {
+nav ul li a:hover {
 	text-decoration: underline;
 }
 
@@ -135,22 +135,22 @@ nav ul {
 	display: inline-flex;
 }
 
-nav ul li {
+nav ul li a {
 	list-style: none;
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
 }
 
-nav ul li.active {
+nav ul li.active a {
 	font-weight: var(--weight-500);
 	color: var(--blue900);
 }
 
-nav ul li:hover {
+nav ul li a:hover {
 	color: var(--blue900);
 }
 
-nav ul li:first-of-type {
+nav ul li a:first-of-type {
 	padding-left: unset;
 }
 
