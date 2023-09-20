@@ -192,8 +192,8 @@ svg.svg-inline--fa {
 	background: var(--orange100);
 	color: var(--orange900);
 	padding: var(--dist-xs) var(--dist-sm);
-	border-radius: var(--rad-md);
-	border: var(--line-sm) solid var(--orange500);
+	border-top: var(--line-sm) solid var(--orange500);
+	border-bottom: var(--line-sm) solid var(--orange500);
 	margin-top: var(--dist-lg);
 }
 
@@ -329,6 +329,11 @@ a.home-logo {
 		background: var(--blue100);
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
+	}
+	
+	.warning {
+		border-radius: var(--rad-md);
+		border: var(--line-sm) solid var(--orange500);
 	}
 }
 
