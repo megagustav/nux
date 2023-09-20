@@ -134,15 +134,17 @@ nav {
 nav div,
 nav ul {
 	display: inline-flex;
+	background: var(--blue100);
 }
 
 nav ul li {
 	list-style: none;
 	display: block;
+	background: var(--blue100);
 }
 
 nav ul li a {
-	padding: var(--dist-xs) var(--dist-sm);
+	padding: var(--dist-sm) var(--dist-md);
 }
 
 nav ul li.active a {
@@ -150,12 +152,8 @@ nav ul li.active a {
 	color: var(--blue900);
 }
 
-nav ul li a:hover {
+nav ul li:hover a {
 	color: var(--blue900);
-}
-
-nav ul li:first-of-type a {
-	padding-left: unset;
 }
 
 /* structure */
@@ -321,6 +319,35 @@ nav ul {
 	.header {
 		display: inline-flex;
 		margin-bottom: var(--dist-lg);
+	}
+	
+	nav div,
+	nav ul {
+		display: inline-flex;
+	}
+	
+	nav ul li {
+		list-style: none;
+		display: block;
+		background: unset;
+	}
+	
+	nav ul li a {
+		padding: var(--dist-xs) var(--dist-sm);
+	}
+	
+	nav ul li.active a {
+		font-weight: var(--weight-500);
+		color: var(--blue900);
+	}
+	
+	nav ul li:hover a {
+		color: var(--blue900);
+		background: unset;
+	}
+	
+	nav ul li:first-of-type a {
+		padding-left: unset;
 	}
 	
 	input {
