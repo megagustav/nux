@@ -210,6 +210,7 @@ input {
 	padding: var(--dist-xs) var(--dist-sm);
 	font-size: var(--text-sm);
 	color: var(--grey600);
+	border: unset;
 	border-top: var(--line-sm) solid var(--grey300);
 	border-bottom: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
@@ -357,7 +358,7 @@ nav ul {
 	
 	input {
 		padding: var(--dist-xs) 1rem;
-		border-top: unset;
+		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		border-bottom: var(--line-sm) solid var(--grey300);
 		background: var(--blue100);
