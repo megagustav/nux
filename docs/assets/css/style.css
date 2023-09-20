@@ -215,7 +215,7 @@ input {
 	border-bottom: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
 	margin-bottom: -0.75pt;
-	width: calc(100% - 1.5rem - var(--line-sm));
+	width: calc(100% - 1.5rem);
 	border-radius: unset;
 }
 
