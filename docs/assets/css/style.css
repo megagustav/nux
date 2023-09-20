@@ -153,7 +153,7 @@ nav ul li a:hover {
 	color: var(--blue900);
 }
 
-nav ul li a:first-of-type {
+nav ul li:first-of-type a {
 	padding-left: unset;
 }
 
