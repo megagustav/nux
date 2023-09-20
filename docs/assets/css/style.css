@@ -194,10 +194,15 @@ svg.svg-inline--fa {
 	padding: var(--dist-xs) var(--dist-sm);
 	border-radius: var(--rad-md);
 	border: var(--line-sm) solid var(--orange500);
+	margin-top: var(--dist-lg);
 }
 
 .warning span {
 	font-weight: var(--weight-500);
+}
+
+.warning p {
+	margin-bottom: unset;
 }
 
 input {
