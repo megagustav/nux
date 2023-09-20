@@ -135,6 +135,7 @@ nav div,
 nav ul {
 	display: inline-flex;
 	width: 100%;
+	background: var(--blue100);
 }
 
 nav ul li {
@@ -217,6 +218,7 @@ input {
 	margin-bottom: -0.75pt;
 	width: calc(100% - 1.5rem);
 	border-radius: unset;
+	background: var(--blue100);
 }
 
 aside {
@@ -328,14 +330,12 @@ nav ul {
 	nav div,
 	nav ul {
 		display: inline-flex;
-		background: unset;
 		width: auto;
 	}
 	
 	nav ul li {
 		list-style: none;
 		display: block;
-		background: unset;
 	}
 	
 	nav ul li a {
@@ -361,7 +361,6 @@ nav ul {
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		border-bottom: var(--line-sm) solid var(--grey300);
-		background: var(--blue100);
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
