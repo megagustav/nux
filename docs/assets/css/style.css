@@ -330,11 +330,6 @@ a.home-logo {
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
-	
-	.warning {
-		margin-left: -1rem;
-		margin-right: -1rem;
-	}
 }
 
 @media only screen and (min-width: 62em) {
