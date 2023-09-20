@@ -251,12 +251,12 @@ a.home-logo {
 }
 
 .logo#nuxi {
-	max-width: 60px;
+	max-width: 61px;
 	margin-right: var(--dist-sm);
 }
 
 .logo.small#nuxi {
-	max-width: 20px;
+	max-width: 16px;
 	margin-top: var(--dist-sm);
 	margin-bottom: var(--dist-lg); 
 }
