@@ -39,14 +39,14 @@ body {
 h1 {
 	font-size: var(--text-lg);
 	font-weight: var(--weight-200);
-	color: var(--blue700);
+	color: var(--blue800);
 	line-height: var(--leading-sm);
 }
 
 h2 {
 	font-size: var(--text-md);
 	margin-bottom: var(--dist-xxs);
-	color: var(--blue600);
+	color: var(--blue700);
 	font-weight: var(--weight-400);
 }
 
@@ -106,7 +106,7 @@ article header h4 {
 }
 
 article header h4 a,
-nav ul a li {
+nav ul a {
 	text-decoration: none;
 }
 
