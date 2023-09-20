@@ -45,7 +45,7 @@ h1 {
 
 h2 {
 	font-size: var(--text-md);
-	margin-bottom: var(--dist-xxs);
+	margin-bottom: var(--dist-xs);
 	color: var(--blue600);
 	font-weight: var(--weight-400);
 }
