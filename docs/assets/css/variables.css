@@ -76,19 +76,15 @@
 	--brand: var(--blue500);
 	--accent: var(--orange400);
 
-	--blue50: #fbfbff;
-	--blue100: #f1f7fe;
-	--blue150: #ecf4fd;
-	--blue200: #dbebf7;
-	--blue250: #c8d9e7;
-	--blue300: #93b2c8;
-	--blue350: #75a0b6;
-	--blue400: #608bab;
-	--blue500: #3E7692;
-	--blue600: #315C72;
-	--blue700: #233c50;
-	--blue800: #121e3a;
-	--blue900: #000e38;
+	--blue100: #fcfaff;
+	--blue200: #f2f2ff;
+	--blue300: #e8e8ff;
+	--blue400: #d8d8ff;
+	--blue500: #c2c2ff;
+	--blue600: #9595ff;
+	--blue700: #5b5bff;
+	--blue800: #2e2eff;
+	--blue900: #0000e0;
 
 	--green400: #2bcd6b;
 	--green500: #21be5f;

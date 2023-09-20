@@ -78,11 +78,11 @@ p {
 }
 
 a {
-	color: var(--blue400);
+	color: var(--blue800);
 }
 
 a:hover {
-	color: var(--blue600);
+	color: var(--blue900);
 }
 
 figcaption, .discreet {
@@ -91,11 +91,11 @@ figcaption, .discreet {
 }
 
 .discreet a {
-	color: var(--blue600);
+	color: var(--blue800);
 }
 
 .discreet a:hover {
-	color: var(--blue700);
+	color: var(--blue900);
 }
 
 article header h4 {
@@ -105,13 +105,13 @@ article header h4 {
 	margin-bottom: unset;
 }
 
-article header h4 a {
-	color: var(--blue500);
+article header h4 a,
+nav ul li a {
 	text-decoration: none;
 }
 
-article header h4 a:hover {
-	color: var(--blue600);
+article header h4 a:hover,
+nav ul li a:hover {
 	text-decoration: underline;
 }
 
@@ -137,7 +137,6 @@ nav ul li {
 	list-style: none;
 	display: block;
 	padding: var(--dist-xs) var(--dist-sm);
-	color: var(--blue500);
 }
 
 nav ul li.active {
