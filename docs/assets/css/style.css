@@ -226,6 +226,10 @@ aside .sponsors {
 	margin-top: var(--dist-xxl);
 }
 
+.sponsors p {
+	margin-top: var(--dist-lg);
+}
+
 img {
 	border-radius: var(--rad-xs);
 	box-shadow: var(--shadow-0), var(--shadow-1);
@@ -236,6 +240,8 @@ img {
 img.logo {
 	border-radius: unset;
 	box-shadow: unset;
+	display: block;
+	margin-top: var(--dist-lg);
 }
 
 figure {
