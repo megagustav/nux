@@ -39,7 +39,7 @@ body {
 h1 {
 	font-size: var(--text-lg);
 	font-weight: var(--weight-300);
-	color: var(--blue700);
+	color: var(--blue800);
 	line-height: var(--leading-sm);
 }
 
