@@ -166,7 +166,7 @@ footer {
 	margin-top: var(--dist-xxl);
 	padding-top: var(--dist-xxl);
 	padding-bottom: var(--dist-xxl);
-	background: var(--blue50);
+	background: var(--blue100);
 	width: var(--width-full);
 	color: var(--grey700);
 }
@@ -282,7 +282,7 @@ figure {
 	input {
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
-		background: var(--blue50);
+		background: var(--blue100);
 	}
 	
 	input {
