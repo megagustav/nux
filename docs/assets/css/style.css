@@ -129,13 +129,13 @@ nav {
 	margin-bottom: var(--dist-xxl);
 	width: var(--width-full);
 	border-bottom: var(--line-sm) solid var(--grey300);
+	background: var(--blue100);
 }
 
 nav div,
 nav ul {
 	display: inline-flex;
 	width: 100%;
-	background: var(--blue100);
 }
 
 nav ul li {
@@ -329,27 +329,11 @@ nav ul {
 	
 	nav div,
 	nav ul {
-		display: inline-flex;
 		width: auto;
-	}
-	
-	nav ul li {
-		list-style: none;
-		display: block;
 	}
 	
 	nav ul li a {
 		padding: var(--dist-xs) var(--dist-sm);
-	}
-	
-	nav ul li.active a {
-		font-weight: var(--weight-500);
-		color: var(--blue900);
-	}
-	
-	nav ul li:hover a {
-		color: var(--blue900);
-		background: unset;
 	}
 	
 	nav ul li:first-of-type a {
