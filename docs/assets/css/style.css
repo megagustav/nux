@@ -188,6 +188,18 @@ svg.svg-inline--fa {
 	vertical-align: -0.1em;
 }
 
+.warning {
+	background: var(--orange100);
+	color: var(--orange900);
+	padding: var(--dist-xs) var(--dist-sm);
+	border-radius: var(--rad-md);
+	border: var(--line-sm) solid var(--orange500);
+}
+
+.warning span {
+	font-weight: var(--weight-500);
+}
+
 input {
 	padding: var(--dist-xs) var(--dist-sm);
 	font-size: var(--text-sm);
@@ -305,13 +317,11 @@ a.home-logo {
 	}
 	
 	input {
+		padding: var(--dist-xs) 1rem;
 		border: unset;
 		border-left: var(--line-sm) solid var(--grey300);
+		border-bottom: var(--line-sm) solid var(--grey300);
 		background: var(--blue100);
-	}
-	
-	input {
-		padding: var(--dist-xs) 1rem;
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
