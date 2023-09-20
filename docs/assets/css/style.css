@@ -38,15 +38,15 @@ body {
 
 h1 {
 	font-size: var(--text-lg);
-	font-weight: var(--weight-200);
-	color: var(--blue800);
+	font-weight: var(--weight-300);
+	color: var(--blue700);
 	line-height: var(--leading-sm);
 }
 
 h2 {
 	font-size: var(--text-md);
 	margin-bottom: var(--dist-xxs);
-	color: var(--blue700);
+	color: var(--blue600);
 	font-weight: var(--weight-400);
 }
 
@@ -242,20 +242,23 @@ figure {
 	margin-bottom: var(--dist-md);
 }
 
+a.home-logo {
+	align-self: center;
+}
+
 .logo.large {
 	display: none;
+}
+
+.logo#nuxi {
+	max-width: 60px;
+	margin-right: var(--dist-sm);
 }
 
 .logo.small#nuxi {
 	max-width: 20px;
 	margin-top: var(--dist-sm);
 	margin-bottom: var(--dist-lg); 
-}
-
-.logo#nuxi {
-	max-width: 60px;
-	align-self: center;
-	margin-right: var(--dist-sm);
 }
 
 .logo#emplution {
