@@ -265,6 +265,10 @@ a.home-logo {
 	max-width: 10rem;
 }
 
+.logo:hover {
+	filter: brightness(90%);
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
