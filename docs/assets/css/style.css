@@ -338,12 +338,12 @@ nav ul {
 		width: auto;
 	}
 	
-	nav ul li a {
-		padding: var(--dist-xs) var(--dist-sm);
+	nav ul {
+		margin-left: -1rem;
 	}
 	
-	nav ul li:first-of-type a {
-		padding-left: unset;
+	nav ul li a {
+		padding: var(--dist-xs) var(--dist-sm);
 	}
 	
 	input {
