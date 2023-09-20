@@ -227,7 +227,7 @@ aside .sponsors {
 }
 
 .sponsors p {
-	margin-top: var(--dist-lg);
+	margin-top: var(--dist-md);
 }
 
 img {
@@ -241,7 +241,7 @@ img.logo {
 	border-radius: unset;
 	box-shadow: unset;
 	display: block;
-	margin-top: var(--dist-lg);
+	margin-top: var(--dist-md);
 }
 
 figure {
