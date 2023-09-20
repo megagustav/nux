@@ -155,7 +155,6 @@ nav ul li.active a {
 	color: var(--blue900);
 }
 
-nav ul li.active,
 nav ul li:hover {
 	background: var(--blue200);
 }
