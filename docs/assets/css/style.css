@@ -210,7 +210,8 @@ input {
 	padding: var(--dist-xs) var(--dist-sm);
 	font-size: var(--text-sm);
 	color: var(--grey600);
-	border: var(--line-sm) solid var(--grey300);
+	border-top: var(--line-sm) solid var(--grey300);
+	border-bottom: var(--line-sm) solid var(--grey300);
 	line-height: var(--leading-md);
 	margin-bottom: -0.75pt;
 	width: calc(100% - 1.5rem - var(--line-sm));
@@ -356,7 +357,7 @@ nav ul {
 	
 	input {
 		padding: var(--dist-xs) 1rem;
-		border: unset;
+		border-top: unset;
 		border-left: var(--line-sm) solid var(--grey300);
 		border-bottom: var(--line-sm) solid var(--grey300);
 		background: var(--blue100);
