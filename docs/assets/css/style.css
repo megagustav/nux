@@ -131,10 +131,7 @@ nav {
 	border-bottom: var(--line-sm) solid var(--grey300);
 }
 
-nav div {
-	display: inline-flex;
-}
-
+nav div,
 nav ul {
 	display: inline-flex;
 }
