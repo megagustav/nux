@@ -107,8 +107,8 @@ article header h4 {
 
 article header h4 a,
 nav ul li a,
-a h1,
-a h2 {
+h1 a,
+h2 a {
 	text-decoration: none;
 }
 
@@ -135,9 +135,12 @@ nav ul {
 	display: inline-flex;
 }
 
-nav ul li a {
+nav ul li {
 	list-style: none;
 	display: block;
+}
+
+nav ul li a {
 	padding: var(--dist-xs) var(--dist-sm);
 }
 
