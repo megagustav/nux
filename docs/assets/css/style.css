@@ -39,14 +39,14 @@ body {
 h1 {
 	font-size: var(--text-lg);
 	font-weight: var(--weight-200);
-	color: var(--blue600);
+	color: var(--blue700);
 	line-height: var(--leading-sm);
 }
 
 h2 {
 	font-size: var(--text-md);
 	margin-bottom: var(--dist-xxs);
-	color: var(--blue500);
+	color: var(--blue600);
 	font-weight: var(--weight-400);
 }
 
