@@ -106,12 +106,12 @@ article header h4 {
 }
 
 article header h4 a,
-nav ul li a {
+nav ul a li {
 	text-decoration: none;
 }
 
 article header h4 a:hover,
-nav ul li a:hover {
+nav ul a li:hover {
 	text-decoration: underline;
 }
 
