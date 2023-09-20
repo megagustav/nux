@@ -128,7 +128,7 @@ nav {
 	margin-top: var(--dist-sm);
 	margin-bottom: var(--dist-xxl);
 	width: var(--width-full);
-	border-bottom: var(--line-sm) solid var(--blue400);
+	border-bottom: var(--line-sm) solid var(--blue300);
 	background: var(--blue100);
 }
 
@@ -218,8 +218,8 @@ input {
 	font-size: var(--text-sm);
 	color: var(--grey600);
 	border: unset;
-	border-top: var(--line-sm) solid var(--blue400);
-	border-bottom: var(--line-sm) solid var(--blue400);
+	border-top: var(--line-sm) solid var(--blue300);
+	border-bottom: var(--line-sm) solid var(--blue300);
 	line-height: var(--leading-md);
 	margin-bottom: -0.75pt;
 	width: calc(100% - 1.5rem);
@@ -232,7 +232,7 @@ aside {
 }
 
 aside article {
-	border-bottom: var(--line-sm) solid var(--blue400);
+	border-bottom: var(--line-sm) solid var(--blue300);
 	border-radius: var(--rad-xs);
 	padding: var(--dist-xs) 0;
 }
@@ -343,14 +343,14 @@ nav ul {
 	}
 	
 	nav ul li a {
-		padding: var(--dist-xs) var(--dist-sm);
+		padding: var(--dist-xs) 1rem;
 	}
 	
 	input {
 		padding: var(--dist-xs) 1rem;
 		border: unset;
-		border-left: var(--line-sm) solid var(--blue400);
-		border-bottom: var(--line-sm) solid var(--blue400);
+		border-left: var(--line-sm) solid var(--blue300);
+		border-bottom: var(--line-sm) solid var(--blue300);
 		margin-left: -1rem;
 		width: calc(100% - 1rem - var(--line-sm));
 	}
@@ -369,7 +369,7 @@ nav ul {
 	
 	aside {
 		margin-top: unset;
-		border-left: var(--line-sm) solid var(--blue400);
+		border-left: var(--line-sm) solid var(--blue300);
 	}
 }
 
