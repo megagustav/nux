@@ -265,6 +265,10 @@ a.home-logo {
 	max-width: 10rem;
 }
 
+.logo#emplution {
+	max-width: 11rem;
+}
+
 .logo:hover {
 	filter: brightness(90%);
 }
