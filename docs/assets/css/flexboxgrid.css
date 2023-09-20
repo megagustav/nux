@@ -7,6 +7,7 @@
 
 .pad-0 {
   padding-left: unset !important;
+  padding-right: unset !important;
 }
 
 .row {
@@ -251,6 +252,11 @@
 }
 
 @media only screen and (min-width: 40em) {
+  .pad-0 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
   .container {
     max-width: 46rem;
   }

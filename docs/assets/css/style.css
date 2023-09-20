@@ -134,17 +134,19 @@ nav {
 nav div,
 nav ul {
 	display: inline-flex;
-	background: var(--blue100);
+	width: 100%;
 }
 
 nav ul li {
 	list-style: none;
 	display: block;
 	background: var(--blue100);
+	flex-grow: 1;
 }
 
 nav ul li a {
 	padding: var(--dist-sm) var(--dist-md);
+	display: inline-block;
 }
 
 nav ul li.active a {
@@ -324,6 +326,8 @@ nav ul {
 	nav div,
 	nav ul {
 		display: inline-flex;
+		background: unset;
+		width: auto;
 	}
 	
 	nav ul li {
