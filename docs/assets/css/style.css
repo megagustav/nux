@@ -155,8 +155,14 @@ nav ul li.active a {
 	color: var(--blue900);
 }
 
+nav ul li.active,
+nav ul li:hover {
+	background: var(--blue200);
+}
+
 nav ul li:hover a {
 	color: var(--blue900);
+	text-decoration: none;
 }
 
 /* structure */
