@@ -256,6 +256,7 @@ aside article header {
 aside .about,
 aside .sponsors {
 	margin-top: var(--dist-xxl);
+	padding-bottom: var(--dist-xs);
 }
 
 img {
