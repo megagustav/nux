@@ -122,6 +122,15 @@ article header .meta {
 	font-size: var(--text-xs);
 }
 
+.single header {
+	margin-top: var(--dist-md);
+	margin-bottom: var(--dist-xl);
+}
+
+.single figcaption {
+	opacity: 0.8;
+}
+
 /* navigation */
 
 nav {
@@ -376,11 +385,6 @@ nav ul {
 	.single ul,
 	.single ol {
 		margin-left: 16.667%;
-	}
-	
-	.single header {
-		margin-top: var(--dist-md);
-		margin-bottom: var(--dist-xl);
 	}
 	
 	.float-right {
