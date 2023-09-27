@@ -271,8 +271,9 @@ img.logo {
 	box-shadow: unset;
 }
 
-.article img {
-	margin-top: var(--dist-lg);
+article figure {
+	margin-top: var(--dist-xl);
+	margin-bottom: var(--dist-md);
 }
 
 figure {
