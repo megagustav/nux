@@ -271,6 +271,10 @@ img.logo {
 	box-shadow: unset;
 }
 
+.article img:not(:first-of-type) {
+	margin-top: var(--dist-lg);
+}
+
 figure {
 	margin-bottom: var(--dist-md);
 }
