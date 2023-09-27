@@ -271,7 +271,7 @@ img.logo {
 	box-shadow: unset;
 }
 
-.article img:not(:first-of-type) {
+.article img {
 	margin-top: var(--dist-lg);
 }
 
