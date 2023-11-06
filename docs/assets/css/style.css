@@ -388,7 +388,7 @@ nav ul {
 		border: var(--line-sm) solid var(--orange500);
 	}
 	
-	figure {
+	figure:has(img.vertical) {
 		background: var(--grey100);
 	}
 	
