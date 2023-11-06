@@ -388,8 +388,20 @@ nav ul {
 		border: var(--line-sm) solid var(--orange500);
 	}
 	
-	figure.vertical {
+	figure {
+		background: var(--grey100);
+	}
+	
+	img.vertical {
 		max-height: 80vh;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	img.vertical + figcaption {
+		margin-top: var(--dist-xxs);
+		background: white;
 	}
 }
 
