@@ -382,6 +382,8 @@ nav ul {
 	
 	figure:has(img.vertical) {
 		background: var(--grey100);
+		display: flex;
+		flex-wrap: wrap;
 	}
 	
 	img.vertical {
@@ -391,11 +393,16 @@ nav ul {
 		margin: 0 auto;
 	}
 	
+	img.screenshot {
+		padding: var(--dist-md);
+	}
+	
 	img.vertical + figcaption {
 		padding-top: var(--dist-xxs);
 		background: white;
 		width: 100%;
 		max-width: unset;
+		flex: 0 0 100%;
 	}
 }
 
