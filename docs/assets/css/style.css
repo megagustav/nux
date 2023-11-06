@@ -156,7 +156,6 @@ nav ul {
 nav ul li {
 	list-style: none;
 	display: block;
-	background: var(--blue100);
 	flex-grow: 1;
 }
 
@@ -238,7 +237,7 @@ input {
 	margin-bottom: -0.75pt;
 	width: calc(100% - 1.5rem);
 	border-radius: unset;
-	background: var(--blue100);
+	background: unset;
 }
 
 aside {
@@ -351,6 +350,10 @@ nav ul {
 	.header {
 		display: inline-flex;
 		margin-bottom: var(--dist-lg);
+	}
+	
+	nav.row {
+		border-radius: var(--rad-md);
 	}
 	
 	nav div,
