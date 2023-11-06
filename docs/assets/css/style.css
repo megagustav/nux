@@ -384,6 +384,7 @@ nav ul {
 		background: var(--grey100);
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	
 	img.vertical {
@@ -395,6 +396,11 @@ nav ul {
 	
 	img.screenshot {
 		margin: var(--dist-md);
+	}
+	
+	img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical {
+		max-height: 48vh;
 	}
 	
 	img.vertical + figcaption {
@@ -429,8 +435,16 @@ nav ul {
 		margin-top: unset;
 		border-left: var(--line-sm) solid var(--blue300);
 	}
+	
+	img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical {
+		max-height: 70vh;
+	}
 }
 
 @media only screen and (min-width: 75em) {
-	
+	img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical {
+		max-height: 80vh;
+	}
 }
