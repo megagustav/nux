@@ -76,10 +76,6 @@ p {
 	margin-bottom: var(--dist-sm);
 }
 
-p small {
-	color: var(--grey600);
-}
-
 p,
 li,
 figcaption,
@@ -95,8 +91,8 @@ a:hover {
 	color: var(--blue900);
 }
 
-figcaption, .discreet {
-	color: var(--grey700);
+figcaption, .discreet, p small {
+	color: var(--grey500);
 	font-size: var(--text-xs);
 }
 
@@ -135,10 +131,6 @@ article header .meta {
 .single header {
 	margin-top: var(--dist-md);
 	margin-bottom: var(--dist-xl);
-}
-
-.single figcaption {
-	opacity: 0.8;
 }
 
 /* navigation */
@@ -403,6 +395,7 @@ nav ul {
 		padding-top: var(--dist-xxs);
 		background: white;
 		width: 100%;
+		max-width: unset;
 	}
 }
 
@@ -411,11 +404,14 @@ nav ul {
 	.single p,
 	.single h3,
 	.single header,
-	.single figcaption,
 	.single blockquote,
 	.single ul,
 	.single ol {
 		margin-left: 16.667%;
+	}
+	
+	.single figcaption {
+		padding-left: 16.667%;
 	}
 	
 	.float-right {
