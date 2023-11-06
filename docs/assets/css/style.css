@@ -384,7 +384,7 @@ nav ul {
 		background: var(--grey100);
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: space-evenly;
 	}
 	
 	img.vertical {
@@ -407,8 +407,7 @@ nav ul {
 		padding-top: var(--dist-xxs);
 		background: white;
 		width: 100%;
-		max-width: unset;
-		flex: 0 0 100%;
+		max-width: 100%;
 	}
 }
 
