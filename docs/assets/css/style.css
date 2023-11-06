@@ -391,7 +391,7 @@ nav ul {
 		max-height: 80vh;
 		width: auto;
 		display: block;
-		margin: 0 auto;
+		margin: var(--dist-md);
 	}
 	
 	img.screenshot {
