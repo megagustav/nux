@@ -394,7 +394,7 @@ nav ul {
 	}
 	
 	img.screenshot {
-		padding: var(--dist-md);
+		margin: var(--dist-md);
 	}
 	
 	img.vertical + figcaption {
