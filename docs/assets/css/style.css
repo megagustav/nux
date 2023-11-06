@@ -76,6 +76,10 @@ p {
 	margin-bottom: var(--dist-sm);
 }
 
+p small {
+	color: var(--grey600);
+}
+
 p,
 li,
 figcaption,
