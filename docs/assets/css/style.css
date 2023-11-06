@@ -171,6 +171,7 @@ nav ul li.active a {
 
 nav ul li:hover {
 	background: var(--blue200);
+	border-radius: var(--rad-md);
 }
 
 nav ul li:hover a {
