@@ -287,8 +287,8 @@ img.logo {
 }
 
 article figure {
-	margin-top: var(--dist-xl);
-	margin-bottom: var(--dist-md);
+	margin-top: var(--dist-xxl);
+	margin-bottom: var(--dist-xxl);
 }
 
 figure {
