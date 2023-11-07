@@ -297,16 +297,25 @@ aside .sponsors {
 	padding-bottom: var(--dist-xs);
 }
 
-img {
+img,
+iframe {
 	border-radius: var(--rad-xs);
 	box-shadow: var(--shadow-0), var(--shadow-1);
 	max-width: 100%;
 	height: auto;
 }
 
+iframe {
+	aspect-ratio: 16/9;
+}
+
 img.logo {
 	border-radius: unset;
 	box-shadow: unset;
+}
+
+img.screenshot {
+	border-radius: var(--rad-lg);
 }
 
 article figure {
@@ -418,10 +427,6 @@ nav ul {
 		max-height: 80vh;
 		width: auto;
 		display: block;
-		margin: var(--dist-md);
-	}
-	
-	img.screenshot {
 		margin: var(--dist-md);
 	}
 	
