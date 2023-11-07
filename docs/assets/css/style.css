@@ -1,6 +1,7 @@
 /* resets */
 
-html, body {
+html, 
+body {
 	margin: 0;
 	padding: 0;
 	font-family: var(--font-primary);
@@ -110,11 +111,6 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
-article header .meta {
-	color: var(--grey600);
-	font-size: var(--text-xs);
-}
-
 blockquote {
 	font-size: var(--text-md);
 	padding-left: var(--dist-md);
@@ -138,7 +134,11 @@ blockquote footer {
 	padding-bottom: unset;
 }
 
-.discreet, figcaption, p small, blockquote footer {
+.discreet, 
+figcaption, 
+p small, 
+blockquote footer, 
+article header .meta {
 	color: var(--grey500);
 	font-size: var(--text-xs);
 }
