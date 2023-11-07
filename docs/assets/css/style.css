@@ -118,7 +118,7 @@ article header .meta {
 blockquote {
 	font-size: var(--text-md);
 	padding-left: var(--dist-md);
-	border-left: var(--line-md) solid var(--grey300);
+	border-left: var(--line-md) solid var(--grey200);
 }
 
 blockquote cite {
@@ -126,7 +126,7 @@ blockquote cite {
 }
 
 blockquote p {
-	color: var(--grey800);
+	color: var(--blue800);
 }
 
 blockquote footer {
