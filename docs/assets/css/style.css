@@ -403,6 +403,12 @@ nav ul {
 		max-height: 48vh;
 	}
 	
+	img.vertical:has(+ img.vertical + img.vertical),
+	img.vertical + img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical + img.vertical {
+		max-height: 30vh;
+	}
+	
 	img.vertical + figcaption {
 		padding-top: var(--dist-xxs);
 		background: white;
@@ -439,11 +445,23 @@ nav ul {
 	img.vertical + img.vertical {
 		max-height: 70vh;
 	}
+	
+	img.vertical:has(+ img.vertical + img.vertical),
+	img.vertical + img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical + img.vertical {
+		max-height: 50vh;
+	}
 }
 
 @media only screen and (min-width: 75em) {
 	img.vertical:has(+ img.vertical),
 	img.vertical + img.vertical {
 		max-height: 80vh;
+	}
+	
+	img.vertical:has(+ img.vertical + img.vertical),
+	img.vertical + img.vertical:has(+ img.vertical),
+	img.vertical + img.vertical + img.vertical {
+		max-height: 60vh;
 	}
 }
