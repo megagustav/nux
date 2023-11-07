@@ -127,6 +127,7 @@ blockquote cite {
 
 blockquote p {
 	color: var(--blue800);
+	max-width: calc(var(--width-chars) / 1.2);
 }
 
 blockquote footer {
