@@ -228,6 +228,10 @@ svg.svg-inline--fa {
 	vertical-align: -0.1em;
 }
 
+article p svg.svg-inline--fa {
+	margin-right: unset;
+}
+
 .warning {
 	background: var(--orange100);
 	color: var(--orange900);
