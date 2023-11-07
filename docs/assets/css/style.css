@@ -118,7 +118,7 @@ article header .meta {
 blockquote {
 	font-size: var(--text-md);
 	padding-left: var(--dist-md);
-	border-left: var(--line-lg) solid var(--grey400);
+	border-left: var(--line-md) solid var(--grey300);
 }
 
 blockquote cite {
@@ -126,13 +126,13 @@ blockquote cite {
 }
 
 blockquote p {
-	margin-left: unset;
 	color: var(--grey800);
 }
 
 blockquote footer {
 	background: unset;
 	margin-top: unset;
+	margin-bottom: var(--dist-md);
 	padding-top: unset;
 	padding-bottom: unset;
 }
@@ -448,6 +448,10 @@ nav ul {
 	.single ul,
 	.single ol {
 		margin-left: 16.667%;
+	}
+	
+	blockquote p {
+		margin-left: unset;
 	}
 	
 	.single figcaption {
