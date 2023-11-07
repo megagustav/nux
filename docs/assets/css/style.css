@@ -91,19 +91,6 @@ a:hover {
 	color: var(--blue900);
 }
 
-figcaption, .discreet, p small {
-	color: var(--grey500);
-	font-size: var(--text-xs);
-}
-
-.discreet a {
-	color: var(--blue800);
-}
-
-.discreet a:hover {
-	color: var(--blue900);
-}
-
 article header h4 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-400);
@@ -126,6 +113,27 @@ nav ul li a:hover {
 article header .meta {
 	color: var(--grey600);
 	font-size: var(--text-xs);
+}
+
+blockquote {
+	font-size: var(--text-md);
+}
+
+blockquote cite {
+	font-style: italic;
+}
+
+.discreet, figcaption, p small, blockquote footer {
+	color: var(--grey500);
+	font-size: var(--text-xs);
+}
+
+.discreet a {
+	color: var(--blue800);
+}
+
+.discreet a:hover {
+	color: var(--blue900);
 }
 
 .single header {
