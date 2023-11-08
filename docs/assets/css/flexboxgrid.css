@@ -841,6 +841,6 @@
 
 @media only screen and (min-width: 100em) {
   .container {
-    max-width: 100rem;
+    max-width: 80rem;
   }
 }
