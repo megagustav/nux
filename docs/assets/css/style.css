@@ -369,11 +369,11 @@ nav ul {
 }
 
 .posts {
-	margin-top: var(--dist-lg);
+	margin-top: var(--dist-xxl);
 }
 
 .posts article {
-	margin-bottom: var(--dist-lg);
+	margin-bottom: var(--dist-xxxl);
 }
 
 .posts article:last-of-type {
@@ -386,6 +386,7 @@ nav ul {
 
 .posts article p.excerpt {
 	text-overflow: ellipsis;
+	overflow: hidden;
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;

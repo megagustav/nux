@@ -42,13 +42,14 @@
 
 	/* distances */
 
-	--dist-xxs: 0.3rem;
-	--dist-xs:  0.5rem;
-	--dist-sm:  0.75rem;
-	--dist-md:  1rem;
-	--dist-lg:  1.25rem;
-	--dist-xl:  1.5rem;
-	--dist-xxl: 2rem;
+	--dist-xxs:  0.3rem;
+	--dist-xs:   0.5rem;
+	--dist-sm:   0.75rem;
+	--dist-md:   1rem;
+	--dist-lg:   1.25rem;
+	--dist-xl:   1.5rem;
+	--dist-xxl:  2rem;
+	--dist-xxxl: 3rem;
 	--width-chars: 70ch;
 	--width-full:  100%;
 	
