@@ -539,3 +539,18 @@ nav ul {
 		max-height: 60vh;
 	}
 }
+
+@media only screen and (min-width: 100em) {
+	.single p,
+	.single h3,
+	.single header,
+	.single blockquote,
+	.single ul,
+	.single ol {
+		margin-left: 22%;
+	}
+	
+	.single figcaption {
+		padding-left: 22%;
+	}
+}
