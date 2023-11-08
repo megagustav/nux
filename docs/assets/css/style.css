@@ -275,7 +275,6 @@ aside article {
 }
 
 aside article:first-of-type {
-	margin-top: calc(var(--line-sm) * -1);
 	padding-top: unset;
 }
 
