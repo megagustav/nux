@@ -140,7 +140,7 @@ blockquote footer {
 figcaption, 
 p small, 
 blockquote footer, 
-article header .meta {
+article .meta {
 	color: var(--grey500);
 	font-size: var(--text-xs);
 }
