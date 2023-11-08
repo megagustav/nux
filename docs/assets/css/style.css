@@ -388,9 +388,9 @@ nav ul {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	display: -webkit-box;
-	-webkit-line-clamp: 3;
+	-webkit-line-clamp: 4;
 	-webkit-box-orient: vertical;
-	background-image: linear-gradient(to bottom, var(--grey900), var(--grey600));
+	background-image: linear-gradient(to bottom, var(--grey900), var(--grey200));
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
