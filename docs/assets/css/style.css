@@ -320,6 +320,10 @@ iframe {
 	height: auto;
 }
 
+img.noshade {
+	box-shadow: unset;
+}
+
 iframe {
 	aspect-ratio: 16/9;
 }
