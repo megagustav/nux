@@ -497,10 +497,13 @@ nav ul {
 	
 	.single p,
 	.single h3,
+	.single h4,
+	.single h5,
 	.single header,
 	.single blockquote,
 	.single ul,
-	.single ol {
+	.single ol,
+	.single footer {
 		margin-left: 16.667%;
 	}
 	
@@ -549,10 +552,13 @@ nav ul {
 @media only screen and (min-width: 100em) {
 	.single p,
 	.single h3,
+	.single h4,
+	.single h5,
 	.single header,
 	.single blockquote,
 	.single ul,
-	.single ol {
+	.single ol,
+	.single footer {
 		margin-left: 22%;
 	}
 	
