@@ -159,6 +159,14 @@ article .meta {
 	color: var(--blue900);
 }
 
+span.badge {
+	padding: var(--dist-sm);
+	background: var(--grey600);
+	border-radius: var(--rad-md);
+	color: var(--grey100);
+	font-weight: var(--weight-600);
+}
+
 .single header {
 	margin-top: var(--dist-md);
 	margin-bottom: var(--dist-xl);
