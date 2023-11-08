@@ -258,7 +258,7 @@
   }
   
   .container {
-    max-width: 46rem;
+    max-width: 50rem;
   }
 
   .col-sm,
@@ -473,7 +473,7 @@
 
 @media only screen and (min-width: 62em) {
   .container {
-    max-width: 61rem;
+    max-width: 70rem;
   }
 
   .col-md,
@@ -688,7 +688,7 @@
 
 @media only screen and (min-width: 75em) {
   .container {
-    max-width: 71rem;
+    max-width: 86rem;
   }
 
   .col-lg,
