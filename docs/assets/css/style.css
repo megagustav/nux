@@ -368,6 +368,29 @@ nav ul {
 	margin-top: var(--dist-md);
 }
 
+.posts {
+	margin-top: var(--dist-lg);
+}
+
+.posts article {
+	margin-bottom: var(--dist-lg);
+}
+
+.posts article:last-of-type {
+	margin-bottom: unset;
+}
+
+.posts article img {
+	
+}
+
+.posts article p.excerpt {
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
