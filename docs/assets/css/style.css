@@ -128,12 +128,18 @@ blockquote p {
 	max-width: calc(var(--width-chars) / 1.2);
 }
 
-blockquote footer {
+blockquote footer,
+article footer {
 	background: unset;
 	margin-top: unset;
 	margin-bottom: var(--dist-md);
 	padding-top: unset;
 	padding-bottom: unset;
+}
+
+article footer {
+	font-size: var(--text-xs);
+	color: var(--grey500);
 }
 
 .discreet, 
