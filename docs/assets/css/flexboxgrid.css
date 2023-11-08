@@ -258,7 +258,7 @@
   }
   
   .container {
-    max-width: 50rem;
+    max-width: 94vw;
   }
 
   .col-sm,
@@ -473,7 +473,7 @@
 
 @media only screen and (min-width: 62em) {
   .container {
-    max-width: 70rem;
+    max-width: 60rem;
   }
 
   .col-md,
@@ -688,7 +688,7 @@
 
 @media only screen and (min-width: 75em) {
   .container {
-    max-width: 86rem;
+    max-width: 80vw;
   }
 
   .col-lg,
@@ -836,5 +836,11 @@
 
   .col-lg-offset-11 {
     margin-left: 91.667%;
+  }
+}
+
+@media only screen and (min-width: 100em) {
+  .container {
+    max-width: 100rem;
   }
 }
