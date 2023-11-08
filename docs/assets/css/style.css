@@ -390,6 +390,10 @@ nav ul {
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
+	background-image: linear-gradient(to bottom, var(--grey900), var(--grey600));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 /* responsive */
