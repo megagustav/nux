@@ -46,29 +46,31 @@ h1 {
 
 h2 {
 	font-size: var(--text-md);
-	margin-bottom: var(--dist-xs);
-	color: var(--blue700);
 	font-weight: var(--weight-400);
+	color: var(--blue700);
+	margin-bottom: var(--dist-xs);
 }
 
-h3 {
+h3:first-of-type {
 	margin-bottom: var(--dist-md);
 }
 
 h3, h4 {
 	font-size: var(--text-md);
 	font-weight: var(--weight-400);
+	margin-top: var(--dist-lg);
+	margin-bottom: var(--dist-xxs);
 }
 
 h4 {
-	margin-bottom: var(--dist-xxs);
-	margin-top: var(--dist-lg);
+	color: var(--grey700);
 }
 
 h5 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
-	margin-top: var(--dist-sm);
+	color: var(--grey800);
+	margin-top: var(--dist-xs);
 	margin-bottom: var(--dist-xxs);
 }
 
@@ -396,6 +398,10 @@ nav ul {
 	color: transparent;
 }
 
+.people {
+	display: flex;
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
@@ -474,6 +480,10 @@ nav ul {
 		background: white;
 		width: 100%;
 		max-width: 100%;
+	}
+	
+	.people .member {
+		width: 50%;
 	}
 }
 
