@@ -548,6 +548,10 @@ nav ul {
 		width: auto;
 	}
 	
+	.vertical figcaption {
+		margin-top: var(--dist-xxs);
+	}
+	
 	.row.imgs {
 		margin-left: -1rem;
 		margin-right: -1rem;
