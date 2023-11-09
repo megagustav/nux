@@ -537,13 +537,20 @@ nav ul {
 		align-content: space-between;
 	}
 	
+	.vertical div {
+		text-align: center;
+	}
+	
 	.vertical img {
 		max-height: 60vh;
 		width: auto;
+		padding-top: var(--dist-md);
+		padding-bottom: var(--dist-md);
 	}
 	
-	.people .member {
-		width: 50%;
+	.row.imgs {
+		margin-left: -1rem;
+		margin-right: -1rem;
 	}
 }
 
