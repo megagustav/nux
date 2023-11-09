@@ -79,7 +79,7 @@ p,
 article ul,
 article ol {
 	margin-top: unset;
-	margin-bottom: var(--dist-sm);
+	margin-bottom: var(--dist-md);
 }
 
 p,
