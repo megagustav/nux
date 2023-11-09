@@ -562,8 +562,8 @@ nav ul {
 	}
 	
 	.row.imgs {
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
 	}
 }
 
