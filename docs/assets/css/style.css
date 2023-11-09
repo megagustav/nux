@@ -74,7 +74,9 @@ h5 {
 	margin-bottom: var(--dist-xxs);
 }
 
-p {
+p,
+ul,
+ol {
 	margin-top: unset;
 	margin-bottom: var(--dist-sm);
 }
@@ -157,6 +159,43 @@ article .meta {
 
 .discreet a:hover {
 	color: var(--blue900);
+}
+
+ul,
+ol {
+	padding-left: calc(var(--dist-md) + var(--dist-xxs));
+}
+
+ul {
+	list-style: none;
+}
+
+ul li::before {
+	content: "•"; 
+	color: var(--blue600);
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+
+ol {
+	list-style: none; 
+	counter-reset: li;
+}
+
+ol li::before {
+	content: counter(li); 
+	color: var(--blue600);
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1.5em;
+	margin-right: 0.5em; 
+	text-align: right; 
+	direction: rtl;
+}
+
+ol li {
+	counter-increment: li;
 }
 
 span.badge {
