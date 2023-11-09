@@ -542,18 +542,8 @@ nav ul {
 		width: auto;
 	}
 	
-	.vertical figcaption {
-		padding-top: var(--dist-xxs);
-		padding-left: 16.667%;
-	}
-	
 	.people .member {
 		width: 50%;
-	}
-	
-	.row.imgs {
-		margin-left: -1rem;
-		margin-right: -1rem;
 	}
 }
 

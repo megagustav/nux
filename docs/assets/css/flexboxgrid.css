@@ -24,8 +24,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /* margin-right: -1rem; this seems to cause a 1rem right overflow*/
-  /* margin-left: -1rem; might not be needed either */
+  margin-right: -1rem;
+  margin-left: -1rem;
 }
 
 .row.reverse {
