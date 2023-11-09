@@ -85,7 +85,8 @@ article ol {
 p,
 li,
 figcaption,
-blockquote {
+blockquote,
+footer .references {
 	max-width: var(--width-chars);
 }
 
@@ -95,6 +96,15 @@ a {
 
 a:hover {
 	color: var(--blue900);
+}
+
+.references div,
+.references span {
+	margin-bottom: var(--dist-xs);
+}
+
+.references a {
+	color: var(--grey700);
 }
 
 article header h4 {
@@ -572,7 +582,10 @@ nav ul {
 		margin-left: 16.667%;
 	}
 	
-	.single blockquote p {
+	.single blockquote p,
+	.single footer h3,
+	.single footer h4,
+	.single footer h5 {
 		margin-left: unset;
 	}
 	
