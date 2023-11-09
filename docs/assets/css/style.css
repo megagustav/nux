@@ -578,7 +578,7 @@ nav ul {
 		margin-left: unset;
 	}
 	
-	.single figcaption {
+	.single > figure figcaption {
 		padding-left: 16.667%;
 	}
 	
@@ -629,7 +629,7 @@ nav ul {
 		margin-left: 22%;
 	}
 	
-	.single figcaption {
+	.single > figure figcaption {
 		padding-left: 22%;
 	}
 }
