@@ -170,12 +170,20 @@ article ul {
 	list-style: none;
 }
 
+article ul li {
+	margin-bottom: var(--dist-xxs);
+}
+
 article ul li::before {
 	content: "●"; 
+	font-size: 0.5em;
 	color: var(--blue600);
 	display: inline-block; 
-	width: 1em;
-	margin-left: -1em;
+	width: 1.5em;
+	margin-left: -2em;
+	margin-top: -0.25em;
+	margin-right: 0.25em;
+	vertical-align: middle;
 }
 
 article ol {
