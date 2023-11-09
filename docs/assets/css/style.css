@@ -154,6 +154,10 @@ article .meta {
 	font-size: var(--text-xs);
 }
 
+p:has(small) {
+	line-height: var(--leading-sm);
+}
+
 .discreet a {
 	color: var(--blue800);
 }
