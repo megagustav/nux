@@ -539,13 +539,13 @@ nav ul {
 	
 	.vertical div {
 		text-align: center;
+		padding-top: var(--dist-md);
+		padding-bottom: var(--dist-md);
 	}
 	
 	.vertical img {
 		max-height: 60vh;
 		width: auto;
-		padding-top: var(--dist-md);
-		padding-bottom: var(--dist-md);
 	}
 	
 	.row.imgs {
