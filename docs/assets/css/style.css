@@ -85,8 +85,7 @@ article ol {
 p,
 li,
 figcaption,
-blockquote,
-footer .references {
+blockquote {
 	max-width: var(--width-chars);
 }
 
@@ -98,13 +97,17 @@ a:hover {
 	color: var(--blue900);
 }
 
+.references {
+	max-width: calc(var(--width-chars) * 1.18);
+}
+
 .references div,
 .references span {
 	margin-bottom: var(--dist-xs);
 }
 
 .references a {
-	color: var(--grey700);
+	color: var(--grey600);
 }
 
 article header h4 {
