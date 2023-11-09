@@ -395,8 +395,9 @@ figure {
 	margin-bottom: var(--dist-md);
 }
 
-h3 + article figure,
-h4 + article figure {
+article h3 + figure,
+article h4 + figure,
+article h5 + figure {
 	margin-top: unset;
 }
 
