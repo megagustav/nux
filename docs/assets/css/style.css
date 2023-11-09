@@ -65,12 +65,12 @@ h4 {
 
 h4,
 h5 {
-	color: var(--grey700);
+	color: var(--grey600);
 }
 
 h5 {
 	font-size: var(--text-sm);
-	font-weight: var(--weight-500);
+	font-weight: var(--weight-400);
 	margin-top: var(--dist-xs);
 	margin-bottom: var(--dist-xxs);
 }
@@ -188,7 +188,7 @@ article ul li::before {
 	margin-left: -2em;
 	margin-top: -0.25em;
 	margin-right: 0.25em;
-	vertical-align: middle;
+	h5-align: middle;
 }
 
 article ol {
