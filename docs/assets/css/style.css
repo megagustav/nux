@@ -171,7 +171,7 @@ article ul {
 }
 
 article ul li::before {
-	content: "•"; 
+	content: "●"; 
 	color: var(--blue600);
 	display: inline-block; 
 	width: 1em;
@@ -199,11 +199,13 @@ article ol li {
 }
 
 span.badge {
-	padding: var(--dist-sm);
-	background: var(--grey600);
-	border-radius: var(--rad-md);
+	padding: var(--dist-xxs) var(--dist-xs);
+	background: var(--grey500);
+	border-radius: var(--rad-sm);
 	color: var(--grey100);
-	font-weight: var(--weight-600);
+	font-weight: var(--weight-500);
+	margin-left: var(--dist-xs);
+	font-size: var(--text-sm);
 }
 
 .single header {
