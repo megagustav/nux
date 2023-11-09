@@ -55,21 +55,22 @@ h3:first-of-type {
 	margin-bottom: var(--dist-md);
 }
 
-h3, h4 {
+h3,
+h4 {
 	font-size: var(--text-md);
 	font-weight: var(--weight-400);
 	margin-top: var(--dist-lg);
 	margin-bottom: var(--dist-xxs);
 }
 
-h4 {
+h4,
+h5 {
 	color: var(--grey700);
 }
 
 h5 {
 	font-size: var(--text-sm);
 	font-weight: var(--weight-500);
-	color: var(--grey800);
 	margin-top: var(--dist-xs);
 	margin-bottom: var(--dist-xxs);
 }
