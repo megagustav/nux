@@ -534,10 +534,12 @@ nav ul {
 	
 	.vertical {
 		background: var(--grey100);
+		align-content: space-between;
 	}
 	
 	.vertical img {
 		max-height: 60vh;
+		width: auto;
 	}
 	
 	.vertical figcaption {
