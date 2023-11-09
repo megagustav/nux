@@ -532,36 +532,17 @@ nav ul {
 		border: var(--line-sm) solid var(--orange500);
 	}
 	
-	figure:has(img.vertical) {
+	.vertical {
 		background: var(--grey100);
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
 	}
 	
-	img.vertical {
-		max-height: 80vh;
-		width: auto;
-		display: block;
-		margin: var(--dist-md);
+	.vertical img {
+		max-height: 60vh;
 	}
 	
-	img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical {
-		max-height: 48vh;
-	}
-	
-	img.vertical:has(+ img.vertical + img.vertical),
-	img.vertical + img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical + img.vertical {
-		max-height: 30vh;
-	}
-	
-	img.vertical + figcaption {
+	.vertical figcaption {
 		padding-top: var(--dist-xxs);
-		background: white;
-		width: 100%;
-		max-width: 100%;
+		padding-left: 16.667%;
 	}
 	
 	.people .member {
@@ -605,29 +586,17 @@ nav ul {
 		border-left: var(--line-sm) solid var(--blue300);
 	}
 	
-	img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical {
-		max-height: 70vh;
-	}
-	
-	img.vertical:has(+ img.vertical + img.vertical),
-	img.vertical + img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical + img.vertical {
-		max-height: 50vh;
+	.vertical img {
+		max-height: 65vh;
 	}
 }
 
 @media only screen and (min-width: 75em) {
-	img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical {
-		max-height: 80vh;
+	
+	.vertical img {
+		max-height: 70vh;
 	}
 	
-	img.vertical:has(+ img.vertical + img.vertical),
-	img.vertical + img.vertical:has(+ img.vertical),
-	img.vertical + img.vertical + img.vertical {
-		max-height: 60vh;
-	}
 }
 
 @media only screen and (min-width: 100em) {
