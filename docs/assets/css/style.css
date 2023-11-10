@@ -307,6 +307,12 @@ footer p {
 
 /* ui elements */
 
+hr {
+	margin-top: var(--dist-xl);
+	border: none;
+	border-top: var(--line-sm) solid var(--grey200);
+}
+
 svg.svg-inline--fa {
 	margin-right: var(--dist-xxs);
 	fill: var(--grey600);
