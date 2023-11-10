@@ -524,20 +524,16 @@ nav ul {
 
 .publication .row.imgs.counter figure::before {
 	counter-increment: imgs;
-	content: counter(imgs);
+	content: "№" counter(imgs);
 	float: left;
-	padding: var(--dist-sm);
+	padding: var(--dist-xxs) var(--dist-sm);
 	background: rgba(0,20,50,0.66);
 	color: var(--blue400);
-	font-weight: var(--weight-600);
-	font-size: var(--dist-xl);
+	font-weight: var(--weight-500);
+	font-size: var(--dist-md);
 	position: absolute;
 	margin-left: var(--dist-md);
 	margin-top: var(--dist-md);
-	height: var(--dist-lg);
-	width: var(--dist-lg);
-	text-align: center;
-	line-height: var(--dist-lg);
 	border-radius: var(--dist-xxl);
 	-webkit-backdrop-filter: blur(var(--dist-xxs));
 	backdrop-filter: blur(var(--dist-xxs));
