@@ -656,8 +656,18 @@ nav ul {
 	}
 	
 	figure.inline {
-		max-width: 50%;
+		max-width: 40%;
 		float: left;
+		padding-right: calc(var(--dist-xl) + var(--dist-xl));
+	}
+	
+	figure.inline.right {
+		float: right;
+		padding-left: calc(var(--dist-xl) + var(--dist-xl));
+	}
+	
+	.single > figure.inline figcaption {
+		padding-left: unset;
 	}
 }
 
