@@ -504,6 +504,15 @@ nav ul {
 	display: flex;
 }
 
+article {
+	counter-reset: figure;
+}
+
+article figure figcaption::before {
+	counter-increment: figure;
+	content: "Figure " counter(imgs) ": ";	
+}
+
 .row.imgs.counter {
 	counter-reset: imgs;
 }
@@ -513,7 +522,7 @@ nav ul {
 	content: counter(imgs);
 	float: left;
 	padding: var(--dist-sm);
-	background: rgba(0,20,120,0.66);
+	background: rgba(0,20,90,0.66);
 	color: var(--blue500);
 	font-weight: var(--weight-700);
 	font-size: var(--dist-xl);
