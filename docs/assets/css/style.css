@@ -400,7 +400,7 @@ img.noshade {
 
 img.small,
 figure.inline {
-	max-width: var(--width-chars);
+	max-width: 100%;
 }
 
 iframe {
@@ -614,6 +614,11 @@ nav ul {
 	.row.imgs {
 		margin-left: -1rem;
 		margin-right: -1rem;
+	}
+	
+	img.small,
+	figure.inline {
+		max-width: var(--width-chars);
 	}
 }
 
