@@ -151,7 +151,7 @@ article footer {
 	margin-bottom: var(--dist-md);
 	padding-top: unset;
 	padding-bottom: unset;
-	width: unset;
+	word-wrap: anywhere;
 }
 
 article footer {
