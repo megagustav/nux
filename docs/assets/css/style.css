@@ -398,6 +398,11 @@ img.noshade {
 	box-shadow: unset;
 }
 
+img.small,
+img.inline {
+	max-width: var(--width-chars);
+}
+
 iframe {
 	aspect-ratio: 16/9;
 }
@@ -652,7 +657,6 @@ nav ul {
 	
 	img.small {
 		margin-left: 16.667%;
-		max-width: var(--width-chars);
 	}
 	
 	figure.inline {
