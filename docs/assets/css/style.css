@@ -399,7 +399,7 @@ img.noshade {
 }
 
 img.small,
-img.inline {
+figure.inline {
 	max-width: var(--width-chars);
 }
 
