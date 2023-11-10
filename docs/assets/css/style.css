@@ -509,7 +509,7 @@ nav ul {
 }
 
 .row.imgs.counter figure::before {
-	counter-increment: counter(imgs);
+	counter-increment: imgs;
 	content: counter(imgs);
 	float: left;
 	padding: 1rem;
