@@ -527,7 +527,7 @@ nav ul {
 	content: counter(imgs);
 	float: left;
 	padding: var(--dist-sm);
-	background: rgba(0,20,90,0.66);
+	background: rgba(0,20,50,0.66);
 	color: var(--blue400);
 	font-weight: var(--weight-600);
 	font-size: var(--dist-xl);
@@ -668,6 +668,7 @@ nav ul {
 	figure.inline.right {
 		float: right;
 		padding-left: calc(var(--dist-xl) + var(--dist-xl));
+		padding-right: unset;
 	}
 	
 	.single > figure.inline figcaption {
