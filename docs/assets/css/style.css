@@ -510,7 +510,7 @@ article {
 
 article figure figcaption::before {
 	counter-increment: figure;
-	content: "Figure " counter(imgs) ": ";	
+	content: "Figure " counter(figure) ": ";	
 }
 
 .row.imgs.counter {
