@@ -512,11 +512,21 @@ nav ul {
 	counter-increment: imgs;
 	content: counter(imgs);
 	float: left;
-	padding: 1rem;
-	background: white;
-	color: red;
-	font-weight: 900;
-	font-size: 2rem;
+	padding: var(--dist-sm);
+	background: rgba(0,20,120,0.66);
+	color: var(--blue500);
+	font-weight: var(--weight-700);
+	font-size: var(--dist-xl);
+	position: absolute;
+	margin-left: var(--dist-md);
+	margin-top: var(--dist-md);
+	height: var(--dist-lg);
+	width: var(--dist-lg);
+	text-align: center;
+	line-height: var(--dist-lg);
+	border-radius: var(--dist-xxl);
+	-webkit-backdrop-filter: blur(var(--dist-xxs));
+	backdrop-filter: blur(var(--dist-xxs));
 }
 
 /* responsive */
