@@ -654,6 +654,11 @@ article figure figcaption::before {
 		margin-left: 16.667%;
 		max-width: var(--width-chars);
 	}
+	
+	figure.inline {
+		max-width: 50%;
+		float: left;
+	}
 }
 
 @media only screen and (min-width: 75em) {
@@ -679,5 +684,9 @@ article figure figcaption::before {
 	
 	.single > figure figcaption {
 		padding-left: 22%;
+	}
+	
+	img.small {
+		margin-left: 22%;
 	}
 }
