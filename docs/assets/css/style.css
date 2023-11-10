@@ -504,6 +504,21 @@ nav ul {
 	display: flex;
 }
 
+.row.imgs.counter {
+	counter-reset: imgs;
+}
+
+.row.imgs.counter figure::before {
+	counter-increment: counter(imgs);
+	content: counter(imgs);
+	float: left;
+	padding: 1rem;
+	background: white;
+	color: red;
+	font-weight: 900;
+	font-size: 2rem;
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
