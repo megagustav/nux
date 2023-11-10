@@ -523,8 +523,8 @@ article figure figcaption::before {
 	float: left;
 	padding: var(--dist-sm);
 	background: rgba(0,20,90,0.66);
-	color: var(--blue500);
-	font-weight: var(--weight-700);
+	color: var(--blue400);
+	font-weight: var(--weight-600);
 	font-size: var(--dist-xl);
 	position: absolute;
 	margin-left: var(--dist-md);
