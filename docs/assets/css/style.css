@@ -504,20 +504,20 @@ nav ul {
 	display: flex;
 }
 
-article {
+.publication article {
 	counter-reset: figure;
 }
 
-article figure figcaption::before {
+.publication article figure figcaption::before {
 	counter-increment: figure;
 	content: "Figure " counter(figure) ": ";	
 }
 
-.row.imgs.counter {
+.publication .row.imgs.counter {
 	counter-reset: imgs;
 }
 
-.row.imgs.counter figure::before {
+.publication .row.imgs.counter figure::before {
 	counter-increment: imgs;
 	content: counter(imgs);
 	float: left;
