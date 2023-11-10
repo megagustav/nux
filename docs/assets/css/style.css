@@ -649,6 +649,11 @@ article figure figcaption::before {
 	.vertical img {
 		max-height: 65vh;
 	}
+	
+	img.small {
+		margin-left: 16.667%;
+		max-width: var(--width-chars);
+	}
 }
 
 @media only screen and (min-width: 75em) {
