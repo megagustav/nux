@@ -102,6 +102,7 @@ a:hover {
 	color: var(--blue900);
 }
 
+article footer:has(.references),
 .references {
 	max-width: calc(var(--width-chars) * 1.18);
 }
