@@ -79,7 +79,7 @@ p,
 article ul,
 article ol {
 	margin-top: unset;
-	margin-bottom: var(--dist-md);
+	margin-bottom: var(--dist-lg);
 }
 
 p,
@@ -87,6 +87,11 @@ li,
 figcaption,
 blockquote {
 	max-width: var(--width-chars);
+}
+
+p + ul,
+p + ol {
+	margin-top: calc(var(--dist-md) * -1);
 }
 
 a {
@@ -202,7 +207,7 @@ article ul li::before {
 	margin-left: -2em;
 	margin-top: -0.25em;
 	margin-right: 0.25em;
-	h5-align: middle;
+	vertical-align: middle;
 }
 
 article ol {
