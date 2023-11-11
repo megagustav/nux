@@ -617,7 +617,8 @@ nav ul {
 		width: auto;
 	}
 	
-	.contained figcaption {
+	.contained figcaption,
+	.contained + figcaption {
 		margin-top: var(--dist-xxs);
 	}
 	
