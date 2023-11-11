@@ -539,6 +539,19 @@ nav ul {
 	backdrop-filter: blur(var(--dist-xxs));
 }
 
+.vertical {
+	background: var(--grey100);
+	padding: var(--dist-md);
+}
+
+.vertical div {
+	margin-bottom: var(--dist-md);
+}
+
+.vertical div:last-of-type {
+	margin-bottom: unset;
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
@@ -588,8 +601,8 @@ nav ul {
 	}
 	
 	.vertical {
-		background: var(--grey100);
 		justify-content: space-evenly;
+		padding: unset !important;
 	}
 	
 	.vertical div {
