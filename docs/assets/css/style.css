@@ -606,6 +606,7 @@ nav ul {
 	}
 	
 	.vertical div {
+		margin-bottom: unset;
 		text-align: center;
 		padding-top: var(--dist-md);
 		padding-bottom: var(--dist-md);
