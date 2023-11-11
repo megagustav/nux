@@ -589,7 +589,7 @@ nav ul {
 	
 	.vertical {
 		background: var(--grey100);
-		align-content: space-between;
+		justify-content: space-evenly;
 	}
 	
 	.vertical div {
