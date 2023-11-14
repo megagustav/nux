@@ -558,11 +558,6 @@ nav ul {
 	margin-bottom: unset;
 }
 
-.pad-0 {
-	padding-left: unset;
-	padding-right: unset;
-}
-
 /* responsive */
 
 @media only screen and (min-width: 40em) {
