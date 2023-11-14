@@ -252,9 +252,9 @@
   order: 1;
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 40rem) {
   .container {
-    max-width: 94vw;
+    max-width: 38rem;
   }
 
   .col-sm,
@@ -467,9 +467,9 @@
   }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 54rem) {
   .container {
-    max-width: 60rem;
+    max-width: 52rem;
   }
 
   .col-md,
@@ -682,9 +682,9 @@
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 70rem) {
   .container {
-    max-width: 80vw;
+    max-width: 68rem;
   }
 
   .col-lg,
@@ -835,7 +835,7 @@
   }
 }
 
-@media only screen and (min-width: 100em) {
+@media only screen and (min-width: 100rem) {
   .container {
     max-width: 80rem;
   }
