@@ -252,7 +252,7 @@
   order: 1;
 }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 40em) {
   .container {
     max-width: 94vw;
   }
@@ -467,9 +467,9 @@
   }
 }
 
-@media only screen and (min-width: 54rem) {
+@media only screen and (min-width: 62em) {
   .container {
-    max-width: 52rem;
+    max-width: 80%;
   }
 
   .col-md,
@@ -489,8 +489,8 @@
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
     flex: 0 0 auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .col-md {
@@ -682,30 +682,9 @@
   }
 }
 
-@media only screen and (min-width: 70rem) {
+@media only screen and (min-width: 75em) {
   .container {
-    max-width: 68rem;
-  }
-  
-  .col-md,
-  .col-md-1,
-  .col-md-2,
-  .col-md-3,
-  .col-md-4,
-  .col-md-5,
-  .col-md-6,
-  .col-md-7,
-  .col-md-8,
-  .col-md-9,
-  .col-md-10,
-  .col-md-11,
-  .col-md-12 {
-    box-sizing: border-box;
-    -ms-flex: 0 0 auto;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    max-width: 80vw;
   }
 
   .col-lg,
@@ -856,7 +835,7 @@
   }
 }
 
-@media only screen and (min-width: 100rem) {
+@media only screen and (min-width: 100em) {
   .container {
     max-width: 80rem;
   }

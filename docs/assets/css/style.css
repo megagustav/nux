@@ -560,7 +560,7 @@ nav ul {
 
 /* responsive */
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 40em) {
 	
 	.logo.large {
 		display: inline-flex;
@@ -638,7 +638,7 @@ nav ul {
 	}
 }
 
-@media only screen and (min-width: 54rem) {
+@media only screen and (min-width: 62em) {
 	
 	.single p,
 	.single h3,
@@ -673,6 +673,23 @@ nav ul {
 		border-left: var(--line-sm) solid var(--blue300);
 	}
 	
+	nav ul {
+		margin-left: -2rem;
+	}
+	
+	nav ul li a {
+		padding: var(--dist-xs) 2rem;
+	}
+	
+	input {
+		padding: var(--dist-xs) 2rem;
+	}
+	
+	.row.imgs {
+		margin-left: -2rem;
+		margin-right: -2rem;
+	}
+	
 	.contained img {
 		max-height: 65vh;
 	}
@@ -698,23 +715,7 @@ nav ul {
 	}
 }
 
-@media only screen and (min-width: 70rem) {
-	nav ul {
-		margin-left: -2rem;
-	}
-	
-	nav ul li a {
-		padding: var(--dist-xs) 2rem;
-	}
-	
-	input {
-		padding: var(--dist-xs) 2rem;
-	}
-	
-	.row.imgs {
-		margin-left: -2rem;
-		margin-right: -2rem;
-	}
+@media only screen and (min-width: 75em) {
 	
 	.contained img {
 		max-height: 70vh;
@@ -722,7 +723,7 @@ nav ul {
 	
 }
 
-@media only screen and (min-width: 100rem) {
+@media only screen and (min-width: 100em) {
 	.single p,
 	.single h3,
 	.single h4,
