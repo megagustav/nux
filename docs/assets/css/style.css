@@ -558,6 +558,11 @@ nav ul {
 	margin-bottom: unset;
 }
 
+.pad-0 {
+	padding-left: unset;
+	padding-right: unset;
+}
+
 /* responsive */
 
 @media only screen and (min-width: 40em) {
@@ -597,8 +602,7 @@ nav ul {
 		border: unset;
 		border-left: var(--line-sm) solid var(--blue300);
 		border-bottom: var(--line-sm) solid var(--blue300);
-		margin-left: -1rem;
-		width: calc(100% - 1rem - var(--line-sm));
+		width: calc(100% - var(--line-sm));
 	}
 	
 	.warning {
@@ -674,8 +678,25 @@ nav ul {
 		border-left: var(--line-sm) solid var(--blue300);
 	}
 	
+	nav ul {
+		margin-left: -2rem;
+	}
+	
+	nav ul li a {
+		padding: var(--dist-xs) 2rem;
+	}
+	
+	input {
+		padding: var(--dist-xs) 2rem;
+	}
+	
 	.contained img {
 		max-height: 65vh;
+	}
+	
+	.row.imgs {
+		margin-left: -2rem;
+		margin-right: -2rem;
 	}
 	
 	img.small {
