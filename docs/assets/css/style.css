@@ -673,25 +673,8 @@ nav ul {
 		border-left: var(--line-sm) solid var(--blue300);
 	}
 	
-	nav ul {
-		margin-left: -2rem;
-	}
-	
-	nav ul li a {
-		padding: var(--dist-xs) 2rem;
-	}
-	
-	input {
-		padding: var(--dist-xs) 2rem;
-	}
-	
 	.contained img {
 		max-height: 65vh;
-	}
-	
-	.row.imgs {
-		margin-left: -2rem;
-		margin-right: -2rem;
 	}
 	
 	img.small {
@@ -716,6 +699,22 @@ nav ul {
 }
 
 @media only screen and (min-width: 75em) {
+	nav ul {
+		margin-left: -2rem;
+	}
+	
+	nav ul li a {
+		padding: var(--dist-xs) 2rem;
+	}
+	
+	input {
+		padding: var(--dist-xs) 2rem;
+	}
+	
+	.row.imgs {
+		margin-left: -2rem;
+		margin-right: -2rem;
+	}
 	
 	.contained img {
 		max-height: 70vh;
