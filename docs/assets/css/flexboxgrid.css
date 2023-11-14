@@ -254,7 +254,7 @@
 
 @media only screen and (min-width: 40rem) {
   .container {
-    max-width: 38rem;
+    max-width: 94vw;
   }
 
   .col-sm,
