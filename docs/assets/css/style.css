@@ -446,6 +446,11 @@ nav ul {
 	align-self: center;
 }
 
+nav.row > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .logo.large {
 	display: none;
 }
@@ -577,6 +582,11 @@ nav ul {
 	
 	nav.row {
 		border-radius: var(--rad-md);
+	}
+	
+	nav.row > div {
+		padding-left: unset;
+		padding-right: unset;
 	}
 	
 	nav div,
