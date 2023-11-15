@@ -659,7 +659,7 @@ nav ul {
 	li, 
 	figcaption, 
 	blockquote {
-		max-width: calc(80% - 4rem - 16.667%);
+		max-width: calc(80vw - 4rem - 16.667%);
 	}
 	
 	.single blockquote p,
