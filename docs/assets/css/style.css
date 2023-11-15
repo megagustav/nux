@@ -711,8 +711,13 @@ nav.row > div {
 	}
 	
 	.row.imgs {
-		margin-left: -2rem;
-		margin-right: -2rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+	
+	.row.imgs figure {
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	
 	.contained img {
