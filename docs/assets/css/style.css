@@ -600,7 +600,6 @@ nav ul {
 		border-bottom: unset;
 		margin-bottom: unset;
 		line-height: unset; 
-
 		width: calc(100% - var(--line-sm));
 	}
 	
@@ -656,6 +655,13 @@ nav ul {
 		margin-left: 8.333%;
 	}
 	
+	p, 
+	li, 
+	figcaption, 
+	blockquote {
+		max-width: calc(80% - 4rem - 16.667%);
+	}
+	
 	.single blockquote p,
 	.single blockquote footer,
 	.single footer h3,
@@ -699,7 +705,7 @@ nav ul {
 	}
 	
 	img.small {
-		margin-left: 16.667%;
+		margin-left: 8.333%;
 	}
 	
 	figure.inline {
@@ -720,6 +726,30 @@ nav ul {
 }
 
 @media only screen and (min-width: 75em) {
+	
+	.single p,
+	.single h3,
+	.single h4,
+	.single h5,
+	.single header,
+	.single blockquote,
+	.single ul,
+	.single ol,
+	.single footer {
+		margin-left: 16.667%;
+	}
+	
+	p, li, figcaption, blockquote {
+		max-width: var(--width-chars);
+	}
+	
+	.single > figure figcaption {
+		padding-left: 16.667%;
+	}
+	
+	img.small {
+		margin-left: 16.667%;
+	}
 	
 	.contained img {
 		max-height: 70vh;
