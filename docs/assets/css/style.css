@@ -596,7 +596,11 @@ nav ul {
 		padding: var(--dist-xs) 1rem;
 		border: unset;
 		border-left: var(--line-sm) solid var(--blue300);
-		border-bottom: var(--line-sm) solid var(--blue300);
+		border-top: unset;
+		border-bottom: unset;
+		margin-bottom: unset;
+		line-height: unset; 
+
 		width: calc(100% - var(--line-sm));
 	}
 	
@@ -649,7 +653,7 @@ nav ul {
 	.single ul,
 	.single ol,
 	.single footer {
-		margin-left: 16.667%;
+		margin-left: 8.333%;
 	}
 	
 	.single blockquote p,
@@ -661,7 +665,7 @@ nav ul {
 	}
 	
 	.single > figure figcaption {
-		padding-left: 16.667%;
+		padding-left: 8.333%;
 	}
 	
 	.float-right {
