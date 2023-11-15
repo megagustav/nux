@@ -585,8 +585,8 @@ nav.row > div {
 	}
 	
 	nav.row > div {
-		padding-left: unset;
-		padding-right: unset;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	
 	nav div,
@@ -691,6 +691,11 @@ nav.row > div {
 	aside {
 		margin-top: unset;
 		border-left: var(--line-sm) solid var(--blue300);
+	}
+	
+	nav.row > div {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	
 	nav ul {
