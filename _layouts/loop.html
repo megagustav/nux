@@ -1,0 +1,36 @@
+---
+layout: layout_default
+---
+
+<section class="col-xs-12 col-md-8 col-lg-7">
+  {%- if page.title -%}
+    <h3 class="page-heading">{{ page.title }}</h3>
+  {%- endif -%}
+
+  {{ content }}
+  
+  <hr>
+
+  {%- if site.posts.size > 0 -%}
+    <div class="posts">
+      {%- for post in site.categories[page.data] -%}
+      <article>
+        <h4>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {%- if post.status -%}
+            <span class="badge">{{ post.status }}</span>
+          {%- endif -%}
+        </h4>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="meta">{{ post.date | date: date_format }}</div>
+        {%- if site.show_excerpts -%}
+          <p class="excerpt">{{ post.excerpt }}</p>
+        {%- endif -%}
+      </article>
+      {%- endfor -%}
+    </div>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</section>

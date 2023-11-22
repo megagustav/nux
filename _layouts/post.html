@@ -1,0 +1,23 @@
+---
+layout: layout_single
+---
+<article class="col-xs-12">
+  
+  <header>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- if page.author -%}
+      <div class="meta">{{ page.author }}</div>
+    {%- endif -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <div class="meta">
+      <span>Published </span>
+      <time>{{ page.date | date: date_format }}</time>
+    </div>
+  </header>
+
+  <div class="content single">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

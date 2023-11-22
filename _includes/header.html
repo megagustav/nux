@@ -1,0 +1,42 @@
+<header class="row" role="banner">
+  <div class="col-xs-12 header">
+    <a class="home-logo" aria-label="Go back to Homepage" href="{{ "/" | relative_url }}"><img class="logo large" id="nuxi" src="/assets/logo/nuxi.svg" alt="NUXI Logo" height="80" width="80"/></a>
+    <div class="text">
+      <h1><a href="{{ "/" | relative_url }}">{{ site.longname }}</a></h1>
+      <h2><a href="{{ "/" | relative_url }}">{{ site.tagline }}</a></h2>
+    </div>
+    <img class="logo small" id="nuxi" src="/assets/logo/nuxi.svg" alt="Logo NUXI" height="80" width="80"/>
+  </div>
+</header>
+
+{%- assign default_paths = site.pages | sort: "order" | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+{%- if page_paths -%}
+  <nav class="row">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
+      <ul>
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            {% if my_page.url == page.url %}
+              <li class="active"><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {% else %}
+              <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-offset-1 pad-0">
+      <input type="text" class="search" id="search-searchbar" placeholder="Search&#8230;">
+    </div>
+  </nav>
+{%- endif -%}
+<section class="row search-hits" aria-label="Search Results">
+  <!-- <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-8"> -->
+    <div class="hits-list hide-hits" id="search-hits"></div>
+  <!-- </div> -->
+</section>
+
+{% include algolia.html %}

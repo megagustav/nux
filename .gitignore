@@ -1,7 +1,5 @@
-
-.DS_Store
-docs/.DS_Store
-docs/assets/.DS_Store
-docs/blog/.DS_Store
-docs/blog/230927/.DS_Store
-docs/blog/230927/assets/.DS_Store
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
