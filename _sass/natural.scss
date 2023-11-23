@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$font-primary: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-secondary: serif !default;
+
+/* set base values */
+$text-base: 16px !default;
+$ratio: 1.25 !default;
+$text-line-height: 1.55 !default;
+
+/* type scale */
+/* modular scale, tim brown */
+ 
+$text-xxs: calc($text-base / $ratio * 2) !default;
+$text-xs:  calc($text-base / $ratio * 1) !default;
+$text-sm:  $text-base !default;
+$text-md:  $text-base * ($ratio * 1) !default;
+$text-lg:  $text-base * ($ratio * 2) !default;
+$text-xl:  $text-base * ($ratio * 3) !default;
+$text-xxl: $text-base * ($ratio * 4) !default;
+
+$leading-sm: calc($text-line-height / $ratio) !default;
+$leading-md: $text-line-height !default;
+$leading-lg: $text-line-height * $ratio !default;
+
+$weight-100: 100 !default;
+$weight-200: 200 !default;
+$weight-300: 300 !default;
+$weight-400: 400 !default;
+$weight-500: 500 !default;
+$weight-600: 600 !default;
+$weight-700: 700 !default;
+$weight-800: 800 !default;
+
+/* lines */
+
+$line-sm: 1pt !default;
+$line-md: 2pt !default;
+$line-lg: 3pt !default;
+
+/* distances */
+
+$dist-xxs:  0.25rem !default;
+$dist-xs:   0.5rem !default;
+$dist-sm:   0.75rem !default;
+$dist-md:   1rem !default;
+$dist-lg:   1.25rem !default;
+$dist-xl:   1.5rem !default;
+$dist-xxl:  2rem !default;
+$dist-xxxl: 4rem !default;
+$width-chars: 70ch !default;
+$width-full:  100% !default;
+
+/* shadows */
+$shadow-0: 0 0 2px rgba(41,79,111,0.16) !default;
+$shadow-1: 0 2px 4px rgba(41,79,111,0.08) !default;
+$shadow-2: 0 4px 8px rgba(41,79,111,0.08) !default;
+$shadow-3: 0 6px 12px rgba(41,79,111,0.08) !default;
+$shadow-4: 0 8px 16px rgba(41,79,111,0.08) !default;
+
+/* radius */
+
+$rad-xs: 0.15rem !default;
+$rad-sm: 0.3rem !default;
+$rad-md: 0.5rem !default;
+$rad-lg: 0.72rem !default;
+
+/* animation */
+
+$time-xs: 0.067s ease-out !default;
+$time-sm: 0.214s ease-out !default;
+$time-md: 0.4s ease-out !default;
+
+/* colour */
+
+$background: #ffffff !default;
+
+$blue100: #fcfaff !default;
+$blue200: #f2f2ff !default;
+$blue300: #e8e8ff !default;
+$blue400: #d8d8ff !default;
+$blue500: #c2c2ff !default;
+$blue600: #9595ff !default;
+$blue700: #6060ff !default;
+$blue800: #3737fe !default;
+$blue900: #0000cb !default;
+
+$green400: #2bcd6b !default;
+$green500: #21be5f !default;
+
+$orange100: #fff9f3 !default;
+$orange500: #ff9418 !default;
+$orange900: #7e4300 !default;
+
+$grey100: #f6f7f7 !default;
+$grey200: #dfe6ea !default;
+$grey300: #c5cdd2 !default;
+$grey400: #a1b0bb !default;
+$grey500: #8699a6 !default;
+$grey600: #617085 !default;
+$grey700: #47545e !default;
+$grey800: #333d45 !default;
+$grey900: #262e34 !default;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "flexboxgrid",
+  "style",
+  "syntax-highlighting"
+;
