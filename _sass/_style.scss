@@ -343,6 +343,7 @@ article.hit .mask {
   background: linear-gradient(180deg, rgba($background,0) 60%, rgba($background,0.6) 80%, rgba($background,1) 97%);
   position: relative;
   z-index: 2;
+  pointer-events: none;
 }
 
 article.hit:hover .mask {
