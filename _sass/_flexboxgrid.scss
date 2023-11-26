@@ -252,7 +252,7 @@
   order: 1;
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: $content-small) {
   .container {
     max-width: 94vw;
   }
@@ -467,11 +467,11 @@
   }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: $content-medium) {
   .container {
     max-width: 80%;
   }
-  
+
   .col-xs,
   .col-xs-1,
   .col-xs-2,
@@ -488,7 +488,7 @@
     padding-right: 2rem;
     padding-left: 2rem;
   }
-  
+
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -716,11 +716,11 @@
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: $content-large) {
   .container {
     max-width: 80vw;
   }
-  
+
   .col-xs,
   .col-xs-1,
   .col-xs-2,
@@ -737,7 +737,7 @@
     padding-right: 2rem;
     padding-left: 2rem;
   }
-  
+
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -754,7 +754,7 @@
     padding-right: 2rem;
     padding-left: 2rem;
   }
-  
+
   .col-md,
   .col-md-1,
   .col-md-2,

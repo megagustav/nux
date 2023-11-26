@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 // Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$content-small:  40em  !default;
+$content-medium: 62em  !default;
+$content-large:  75em  !default;
+$content-extra:  100em !default;
 
 $font-primary: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-secondary: serif !default;
@@ -16,7 +16,7 @@ $text-line-height: 1.55 !default;
 
 /* type scale */
 /* modular scale, tim brown */
- 
+
 $text-xxs: calc($text-base / $ratio * 2) !default;
 $text-xs:  calc($text-base / $ratio * 1) !default;
 $text-sm:  $text-base !default;
@@ -77,7 +77,7 @@ $time-xs: 0.067s ease-out !default;
 $time-sm: 0.214s ease-out !default;
 $time-md: 0.4s ease-out !default;
 
-/* colour */
+/* colours */
 
 $background: #ffffff !default;
 
@@ -107,6 +107,22 @@ $grey600: #617085 !default;
 $grey700: #47545e !default;
 $grey800: #333d45 !default;
 $grey900: #262e34 !default;
+
+/* theme */
+
+$dark: black !default;
+$light: white !default;
+$theme: $light;
+
+$theme100: $blue100 !default;
+$theme200: $blue200 !default;
+$theme300: $blue300 !default;
+$theme400: $blue400 !default;
+$theme500: $blue500 !default;
+$theme600: $blue600 !default;
+$theme700: $blue700 !default;
+$theme800: $blue800 !default;
+$theme900: $blue900 !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
