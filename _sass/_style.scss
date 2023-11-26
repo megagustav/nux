@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: radial-gradient(at 10vw 8vw, rgba(desaturate($theme200, 42), 0.8) 0%, rgba(desaturate($theme200, 42), 1) 25%, rgba(desaturate($theme200, 42), 1) 100%);
+  background: desaturate($theme200, 42);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -743,7 +743,23 @@ nav.row > div {
 /* responsive */
 
 @media only screen and (min-width: 40em) {
-
+  
+  body > .gradient {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: 
+    radial-gradient(at 10em 10em, rgba(desaturate($theme800, 1), 0.1) 0%, rgba(desaturate($theme200, 42), 0) 25%, rgba(desaturate($theme200, 42), 0) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+  
   .logo.large {
     display: inline-flex;
   }
