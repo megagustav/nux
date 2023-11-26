@@ -15,11 +15,18 @@ body {
   font-display: swap;
 }
 
+html {
+  background: $theme800;
+}
+
 body {
-  margin-top: $dist-xxl;
+  padding-top: $dist-xxl;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: radial-gradient(at 10vw 8vw, rgba(desaturate($theme200, 42), 0.8) 0%, rgba(desaturate($theme200, 42), 1) 25%, rgba(desaturate($theme200, 42), 1) 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 * {
@@ -265,6 +272,10 @@ nav ul {
   width: 100%;
 }
 
+nav ul {
+  align-items: center;
+}
+
 nav ul li {
   list-style: none;
   display: block;
@@ -274,16 +285,20 @@ nav ul li {
 nav ul li a {
   padding: $dist-sm $dist-md;
   display: inline-block;
+  border-radius: $rad-md;
 }
 
 nav ul li.active a {
   font-weight: $weight-500;
   color: $theme900;
+  transition: 0.1s ease-in-out;
+  background: $background;
 }
 
 nav ul li a:hover {
-  background: $theme200;
-  border-radius: $rad-md;
+  background: $background;
+  color: $theme900;
+  transition: 0.1s ease-in-out;
 }
 
 nav ul li:hover a {
@@ -470,7 +485,7 @@ footer {
   margin-top: $dist-xxl;
   padding-top: $dist-xxl;
   padding-bottom: $dist-xxl;
-  background: $theme100;
+  background: $theme800;
   width: $width-full;
   color: $grey700;
 
@@ -743,7 +758,7 @@ nav.row > div {
   }
 
   nav.row {
-    border-radius: $rad-md;
+    border-radius: $rad-lg;
   }
 
   nav.row > div {
@@ -762,6 +777,24 @@ nav.row > div {
 
   nav ul li a {
     padding: $dist-xs $dist-md;
+  }
+
+  nav ul li a {
+    border: $line-lg solid $theme100;
+  }
+
+  nav ul li a:hover {
+    border: $line-md solid $theme300;
+    margin: $line-md;
+  }
+
+  nav ul li.active a {
+    border: $line-md solid $theme600;
+    margin: $line-md;
+  }
+
+  nav ul li.active a:hover {
+    border: $line-md solid $theme600;
   }
 
   input {
