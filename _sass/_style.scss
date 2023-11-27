@@ -805,9 +805,8 @@ nav.row > div {
   }
   
   .container.nav {
-    width: 100%;
     padding-top: $dist-xxl;
-    //padding-bottom: $dist-xs;
+    padding-bottom: unset;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -960,6 +959,10 @@ nav.row > div {
 
   .float-right {
     float: right;
+  }
+  
+  .container.nav {
+    width: 100%;
   }
 
   aside {
