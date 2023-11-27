@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 // Width of the content area
-$content-small:  40em  !default;
-$content-medium: 62em  !default;
-$content-large:  75em  !default;
-$content-extra:  100em !default;
+$content-small:  44em  !default;
+$content-medium: 70em  !default;
+$content-large:  90em  !default;
+$content-extra:  110em !default;
 
 $font-primary: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-secondary: serif !default;
@@ -14,18 +14,15 @@ $text-base: 18px !default;
 $ratio: 1.25 !default;
 $text-line-height: 1.55 !default;
 
-/* type scale */
-/* modular scale, tim brown */
-
-$text-xxs: calc($text-base / $ratio * 2) !default;
-$text-xs:  calc($text-base / $ratio * 1) !default;
+$text-xxs: $text-base / ($ratio * 2) !default;
+$text-xs:  $text-base / ($ratio * 1) !default;
 $text-sm:  $text-base !default;
 $text-md:  $text-base * ($ratio * 1) !default;
 $text-lg:  $text-base * ($ratio * 2) !default;
 $text-xl:  $text-base * ($ratio * 3) !default;
 $text-xxl: $text-base * ($ratio * 4) !default;
 
-$leading-sm: calc($text-line-height / $ratio) !default;
+$leading-sm: $text-line-height / $ratio !default;
 $leading-md: $text-line-height !default;
 $leading-lg: $text-line-height * $ratio !default;
 
@@ -46,6 +43,7 @@ $line-lg: 4pt !default;
 
 /* distances */
 
+$dist-xxxs: 0.125rem !default;
 $dist-xxs:  0.25rem !default;
 $dist-xs:   0.5rem !default;
 $dist-sm:   0.75rem !default;
@@ -56,13 +54,6 @@ $dist-xxl:  2rem !default;
 $dist-xxxl: 4rem !default;
 $width-chars: 70ch !default;
 $width-full:  100% !default;
-
-/* shadows */
-$shadow-0: 0 0 2px rgba(41,79,111,0.16) !default;
-$shadow-1: 0 2px 4px rgba(41,79,111,0.08) !default;
-$shadow-2: 0 4px 8px rgba(41,79,111,0.08) !default;
-$shadow-3: 0 6px 12px rgba(41,79,111,0.08) !default;
-$shadow-4: 0 8px 16px rgba(41,79,111,0.08) !default;
 
 /* radius */
 
@@ -78,8 +69,6 @@ $time-sm: 0.214s ease-out !default;
 $time-md: 0.4s ease-out !default;
 
 /* colours */
-
-$background: #ffffff !default;
 
 $blue100: #fcfaff !default;
 $blue200: #f2f2ff !default;
@@ -123,6 +112,27 @@ $theme600: $blue600 !default;
 $theme700: $blue700 !default;
 $theme800: $blue800 !default;
 $theme900: $blue900 !default;
+
+$background: desaturate($theme200, 42) !default;
+$brightest: #ffffff !default;
+
+/* shadows */
+$shadow-1:  0 1px 2px rgba($blue900,0.12), 
+            0 2px 4px rgba($blue900,0.12) !default;
+$shadow-2:  0 1px 2px rgba($blue900,0.09), 
+            0 2px 4px rgba($blue900,0.09), 
+            0 4px 8px rgba($blue900,0.09) !default;
+$shadow-3:  0 1px 2px rgba($blue900,0.06), 
+            0 2px 4px rgba($blue900,0.05), 
+            0 4px 8px rgba($blue900,0.04), 
+            0 8px 16px rgba($blue900,0.03),
+            0 16px 32px rgba($blue900,0.02) !default;
+$shadow-4:  0 1px 2px rgba($blue900,0.06), 
+            0 2px 4px rgba($blue900,0.05), 
+            0 4px 8px rgba($blue900,0.04), 
+            0 8px 16px rgba($blue900,0.03),
+            0 16px 32px rgba($blue900,0.02), 
+            0 32px 64px rgba($blue900,0.01) !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

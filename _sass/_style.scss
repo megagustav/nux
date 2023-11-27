@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: desaturate($theme200, 42);
+  background: $background;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ blockquote {
 
 p + ul,
 p + ol {
-  margin-top: calc($dist-md * -1);
+  margin-top: -$dist-md;
 }
 
 a {
@@ -111,7 +111,7 @@ a:hover {
 
 article footer:has(.references),
 .references {
-  max-width: calc($width-chars * 1.18);
+  max-width: $width-chars * 1.18;
 }
 
 .references div,
@@ -156,7 +156,7 @@ blockquote cite {
 
 blockquote p {
   color: $theme800;
-  max-width: calc($width-chars / 1.2);
+  max-width: $width-chars / 1.2;
 }
 
 blockquote footer,
@@ -197,7 +197,7 @@ p:has(small) {
 
 article ul,
 article ol {
-  padding-left: calc($dist-md + $dist-xxs);
+  padding-left: $dist-md + $dist-xxs;
 }
 
 article ul {
@@ -258,8 +258,6 @@ span.badge {
 /* navigation */
 
 nav {
-  margin-top: $dist-sm;
-  margin-bottom: $dist-xxl;
   border-bottom: $line-sm solid $theme300;
   background: $theme100;
   position: relative;
@@ -285,18 +283,17 @@ nav ul li {
 nav ul li a {
   padding: $dist-sm $dist-md;
   display: inline-block;
-  border-radius: $rad-md;
+  border-radius: $rad-lg;
 }
 
 nav ul li.active a {
   font-weight: $weight-500;
   color: $theme900;
   transition: 0.1s ease-in-out;
-  background: $background;
+  background: $brightest;
 }
 
 nav ul li a:hover {
-  background: $background;
   color: $theme900;
   transition: 0.1s ease-in-out;
 }
@@ -330,7 +327,7 @@ section.search-hits {
 }
 
 section.search-hits > div {
-  padding-right: 1rem;
+  padding-right: $dist-md;
   // padding-left: .75rem;
 }
 
@@ -347,8 +344,8 @@ article.hit {
   height: 12rem;
   overflow: hidden;
   border-radius: $rad-md;
-  border: $line-md solid $background;
-  background: $background;
+  border: $line-md solid $brightest;
+  background: $brightest;
   transition: 0.2s ease-in-out;
 }
 
@@ -362,7 +359,7 @@ article.hit .mask {
   height: 100%;
   display: block;
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba($background,0) 60%, rgba($background,0.6) 80%, rgba($background,1) 97%);
+  background: linear-gradient(180deg, rgba($brightest,0) 60%, rgba($brightest,0.6) 80%, rgba($brightest,1) 97%);
   position: relative;
   z-index: 2;
   pointer-events: none;
@@ -394,8 +391,8 @@ article.hit a h2,
 article.hit a .meta,
 article.hit p,
 article.hit a p {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: $dist-md;
+  padding-right: $dist-md;
 }
 
 article.hit a {
@@ -407,7 +404,7 @@ article.hit p a {
 }
 
 article.hit a .meta {
-  padding-top: 1rem;
+  padding-top: $dist-md;
 }
 
 article.hit a p,
@@ -428,7 +425,7 @@ article.hit p {
 }
 
 article.hit a p {
-  padding-bottom: 1rem;
+  padding-bottom: $dist-md;
 }
 
 article.hit a p.superficial,
@@ -454,24 +451,32 @@ article.hit a p:empty {
 
 @media screen and (min-width: $content-medium) {
   section.search-hits {
-    max-width: calc(80% - 0.666 * 80%);
+    max-width: 80% - 0.666 * 80%;
     right: calc((100% - 80%) / 2);
   }
 }
 @media screen and (min-width: $content-large) {
   section.search-hits {
-    max-width: calc(80vw - 0.666 * 80vw);
+    max-width: 80vw - 0.666 * 80vw;
     right: calc((100% - 80vw) / 2);
   }
 }
 @media screen and (min-width: $content-extra) {
   section.search-hits {
-    max-width: calc(80rem - 0.666 * 80rem);
+    max-width: 80rem - 0.666 * 80rem;
     right: calc((100% - 80rem) / 2);
   }
 }
 
 /* structure */
+
+.container.header {
+  width: 100%;
+}
+
+.container.main {
+  margin-top: $dist-xxl;
+}
 
 header {
   margin-top: $dist-lg;
@@ -487,10 +492,22 @@ footer {
   padding-bottom: $dist-xxl;
   background: $theme800;
   width: $width-full;
-  color: $grey700;
+  color: $theme500;
 
   p {
     margin-top: $dist-lg;
+  }
+  
+  .discreet {
+    color: $theme500;
+  }
+  
+  .discreet a {
+    color: $theme300;
+  }
+  
+  .discreet a:hover {
+    color: $theme200;
   }
 }
 
@@ -530,18 +547,25 @@ article p svg.svg-inline--fa {
   }
 }
 
+input::placeholder {
+  color: $blue600;
+}
+
 input {
   padding: $dist-xs $dist-sm;
   font-size: $text-sm;
-  color: $grey600;
+  color: $blue700;
   border: unset;
-  border-top: $line-sm solid $theme300;
-  border-bottom: $line-sm solid $theme300;
   line-height: $leading-md;
-  margin-bottom: -0.75pt;
-  width: calc(100% - 1.5rem);
   border-radius: unset;
   background: unset;
+}
+
+input.search {
+  border-top: $line-sm solid $theme300;
+  border-bottom: $line-sm solid $theme300;
+  margin-bottom: -0.75pt;
+  width: calc(100% - 1.5rem);
 }
 
 aside {
@@ -576,7 +600,7 @@ aside {
 img,
 iframe {
   border-radius: $rad-xs;
-  box-shadow: $shadow-0, $shadow-1;
+  box-shadow: $shadow-1;
   max-width: 100%;
   height: auto;
 }
@@ -728,7 +752,8 @@ nav.row > div {
 }
 
 .contained {
-  background: $grey100;
+  background: $background;
+  //background: darken($background, 1%);
   padding: $dist-md;
 }
 
@@ -742,22 +767,27 @@ nav.row > div {
 
 /* responsive */
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: $content-small) {
   
   body > .gradient {
-    height: 100%;
-    width: 100%;
     position: absolute;
-    z-index: 0;
+    z-index: 2;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     background: 
-    radial-gradient(at 10em 10em, rgba(desaturate($theme800, 1), 0.1) 0%, rgba(desaturate($theme200, 42), 0) 25%, rgba(desaturate($theme200, 42), 0) 100%);
-    background-size: 100% 100%;
+    radial-gradient(at 10em 10em, rgba(desaturate($theme800, 1), 0.1) 0%, rgba($background, 0) 25%, rgba($background, 0) 100%);
+    background-size: 100% 200%;
     background-repeat: no-repeat;
     pointer-events: none;
+  }
+  
+  body > .gradient.bottom {
+    position: absolute;
+    background: radial-gradient(red 0%, blue 25%, yellow 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
   
   .logo.large {
@@ -770,7 +800,29 @@ nav.row > div {
 
   .header {
     display: inline-flex;
-    margin-bottom: $dist-lg;
+    //margin-bottom: $dist-lg;
+  }
+  
+  .container.nav {
+    width: 100%;
+    padding-top: $dist-xxl;
+    //padding-bottom: $dist-xs;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    -webkit-backdrop-filter: blur($dist-sm);
+    backdrop-filter: blur($dist-sm);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba($background,0.8) 0%, rgba($background,0.5) 50%, rgba($background,0.3) 80%, rgba($background,0) 100%);
+  }
+  
+  nav {
+    background: rgba($theme100, 0.7);
+    background: 
+      linear-gradient(-30deg, rgba($theme100, 0.7) 0%, rgba($theme100, 0.94) 100%),
+      linear-gradient(0deg, rgba($brightest, 0.01) 80%, rgba($brightest, 0.4) 100%),
+      linear-gradient(170deg, rgba($brightest, 0.01) 50%, rgba($brightest, 1) 70%, rgba($brightest, 0.01) 90%);
+    box-shadow: $shadow-4;
   }
 
   nav.row {
@@ -791,37 +843,42 @@ nav.row > div {
     margin-left: -$dist-md;
   }
 
+  nav ul li {
+    margin-right: $dist-md;
+  }
+  
   nav ul li a {
     padding: $dist-xs $dist-md;
+    margin: -$line-md;
+    border: $line-md solid rgba($theme200, 0);
   }
 
-  nav ul li a {
-    border: $line-lg solid $theme100;
+  nav ul li a:hover,
+  input.search:hover {
+    background: $brightest;
+    border-color: $theme200;
   }
 
-  nav ul li a:hover {
-    border: $line-md solid $theme300;
-    margin: $line-md;
-  }
-
-  nav ul li.active a {
-    border: $line-md solid $theme600;
-    margin: $line-md;
-  }
-
+  nav ul li.active a,
   nav ul li.active a:hover {
-    border: $line-md solid $theme600;
+    border-color: $theme700;
   }
-
-  input {
+  
+  .ais-search-box {
+    border-left: $line-sm solid $theme300;
+    width: calc(100% - $line-sm);
+  }
+  
+  input.search {
     padding: $dist-xs $dist-md;
     border: unset;
-    border-left: $line-sm solid $theme300;
     border-top: unset;
     border-bottom: unset;
     margin-bottom: unset;
     line-height: unset;
-    width: calc(100% - $line-sm);
+    border-top-right-radius: $rad-lg;
+    border-bottom-right-radius: $rad-lg;
+    transition: 0.1s;
   }
 
   .warning {
@@ -860,9 +917,14 @@ nav.row > div {
   figure.inline {
     max-width: $width-chars;
   }
+  
+  figure [class^=col] {
+    padding-right: $dist-md;
+    padding-left: $dist-md;
+  }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: $content-medium) {
 
   .single p,
   .single h3,
@@ -904,10 +966,10 @@ nav.row > div {
     border-left: $line-sm solid $theme300;
   }
 
-  nav.row {
-    margin-left: $dist-md;
-    margin-right: $dist-md;
-  }
+  // nav.row {
+  //   margin-left: $dist-md;
+  //   margin-right: $dist-md;
+  // }
 
   nav.row > div {
     padding-left: $dist-md;
@@ -922,9 +984,8 @@ nav.row > div {
     padding: $dist-xs $dist-md;
   }
 
-  input {
-    padding: $dist-xs $dist-md $dist-xs $dist-xxl;
-    margin-left: $dist-xxs;
+  input.search {
+    padding: $dist-xs $dist-md $dist-xs $dist-xxxl;
   }
 
   .row.imgs {
@@ -948,12 +1009,12 @@ nav.row > div {
   figure.inline {
     max-width: 40%;
     float: left;
-    padding-right: calc($dist-xl + $dist-xl);
+    padding-right: $dist-xl + $dist-xl;
   }
 
   figure.inline.right {
     float: right;
-    padding-left: calc($dist-xl + $dist-xl);
+    padding-left: $dist-xl + $dist-xl;
     padding-right: unset;
   }
 
@@ -962,7 +1023,7 @@ nav.row > div {
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: $content-large) {
 
   .single p,
   .single h3,
@@ -991,10 +1052,14 @@ nav.row > div {
   .contained img {
     max-height: 70vh;
   }
-
+  
+  .container.nav {
+    -webkit-backdrop-filter: blur($dist-lg);
+    backdrop-filter: blur($dist-lg);
+  }
 }
 
-@media only screen and (min-width: 100em) {
+@media only screen and (min-width: $content-extra) {
   .single p,
   .single h3,
   .single h4,
