@@ -471,10 +471,6 @@ article.hit a p:empty {
 
 /* structure */
 
-.container.header {
-  width: 100%;
-}
-
 .container.main {
   margin-top: $dist-xxl;
 }
@@ -959,6 +955,10 @@ nav.row > div {
 
   .float-right {
     float: right;
+  }
+  
+  .container.header {
+    width: 100%;
   }
   
   .container.nav {
