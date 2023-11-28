@@ -683,7 +683,7 @@ img.noshade {
 
 img.small,
 figure.inline {
-  max-width: 100%;
+  max-width: min(70ch, 100%);
 }
 
 iframe {
@@ -852,11 +852,21 @@ nav.row > div {
   
   @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
     .container {
-      max-width: 84vw;
+      max-width: 84vw !important;
+    }
+    
+    .container.header {
+      overflow: hidden;
     }
     
     .container.nav {
-      max-width: 88vw !important;
+      max-width: 87.4vw !important;
+    }
+    
+    figure[class^=col] {
+      padding-left: $dist-xs;
+      padding-right: $dist-xs; 
+      margin-bottom: $dist-md;
     }
   }
   
@@ -1013,11 +1023,6 @@ nav.row > div {
   .row.imgs {
     margin-left: -$dist-md;
     margin-right: -$dist-md;
-  }
-
-  img.small,
-  figure.inline {
-    max-width: $width-chars;
   }
   
   figure [class^=col] {
