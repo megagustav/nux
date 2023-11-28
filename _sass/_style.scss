@@ -364,11 +364,11 @@ nav ul li:hover a {
 .hits-list:has(.ais-hits__empty) {
   width: 100%;
   border-radius: $rad-lg;
-  background: rgba($theme100, 0.7);
-  -webkit-backdrop-filter: unset;
+  background: rgba($orange100, 0.7);
 }
 
 .ais-hits__empty {
+  color: $orange900;
 }
 
 section.search-hits {
@@ -791,7 +791,7 @@ nav.row > div {
 
 .contained {
   background: $background;
-  //background: darken($background, 1%);
+  background: darken($background, 2%);
   padding: $dist-md;
 }
 
@@ -916,11 +916,11 @@ nav.row > div {
   section.search-hits {
     position: fixed;
     z-index: 1;
-    top: 7rem;
+    margin-top: -$dist-md;
     margin-left: unset;
     margin-right: unset;
-    max-width: 92vw - 0.666 * 92vw;
-    right: calc((100% - 92vw) / 2);
+    max-width: calc(92vw - 0.666 * 92vw + 0.75rem);
+    right: calc((100% - 92vw) / 2 - 2vw);
   }
   
   input.search {
@@ -1079,8 +1079,8 @@ nav.row > div {
   }
   
   section.search-hits {
-    max-width: 80% - 0.666 * 80%;
-    right: calc((100% - 80%) / 2);
+    max-width: 96vw - 0.666 * 96vw;
+    right: calc((100% - 96vw) / 2);
   }
   
   .hits-list {
