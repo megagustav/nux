@@ -868,6 +868,9 @@ nav.row > div {
       padding-right: $dist-xs; 
       margin-bottom: $dist-md;
     }
+    .contained img {
+      max-height: 150vh;
+    }
   }
   
   body > .gradient {
