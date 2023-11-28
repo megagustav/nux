@@ -850,6 +850,16 @@ nav.row > div {
     max-width: 96vw;
   }
   
+  @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    .container {
+      max-width: 84vw;
+    }
+    
+    .container.nav {
+      max-width: 88vw !important;
+    }
+  }
+  
   body > .gradient {
     position: absolute;
     z-index: 2;
