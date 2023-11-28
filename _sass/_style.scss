@@ -317,13 +317,14 @@ nav ul {
 nav ul li {
   list-style: none;
   display: block;
-  flex-grow: 1;
+  //flex-grow: 1;
 }
 
 nav ul li a {
   padding: $dist-sm $dist-md;
   display: inline-block;
-  border-radius: $rad-lg;
+  border-top: $line-md solid transparent;
+  margin-top: -$line-md;
 }
 
 nav ul li.active a {
@@ -331,16 +332,20 @@ nav ul li.active a {
   color: $theme900;
   transition: 0.1s ease-in-out;
   background: $brightest;
+  border-top: $line-md solid $theme800;
+  margin-top: -$line-md;
 }
 
 nav ul li a:hover {
   color: $theme900;
   transition: 0.1s ease-in-out;
+  border-color: $theme300;
 }
 
 nav ul li:hover a {
   color: $theme900;
   text-decoration: none;
+  border-color: $theme300;
 }
 
 /* search */
@@ -604,6 +609,7 @@ input.search {
   border-bottom: $line-sm solid $theme300;
   margin-bottom: -0.75pt;
   width: calc(100% - 1.5rem);
+  padding: $dist-sm $dist-md;
 }
 
 aside {
@@ -896,6 +902,7 @@ nav.row > div {
     padding: $dist-xs $dist-md;
     margin: -$line-md;
     border: $line-md solid rgba($theme200, 0);
+    border-radius: $rad-lg;
   }
 
   nav ul li a:hover,
@@ -906,7 +913,8 @@ nav.row > div {
 
   nav ul li.active a,
   nav ul li.active a:hover {
-    border-color: $theme700;
+    border-color: $theme800;
+    //background: $brightest;
   }
   
   .ais-search-box {
