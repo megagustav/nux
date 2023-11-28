@@ -1,11 +1,5 @@
 /* Uncomment and set these variables to customize the grid. */
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-}
-
 .pad-0 {
   padding-left: unset !important;
   padding-right: unset !important;
@@ -253,9 +247,6 @@
 }
 
 @media only screen and (min-width: $content-small) {
-  .container {
-    max-width: 94vw;
-  }
 
   .col-sm,
   .col-sm-1,
@@ -468,9 +459,6 @@
 }
 
 @media only screen and (min-width: $content-medium) {
-  .container {
-    max-width: 80%;
-  }
 
   .col-xs,
   .col-xs-1,
@@ -717,10 +705,6 @@
 }
 
 @media only screen and (min-width: $content-large) {
-  .container {
-    max-width: 80vw;
-  }
-
   .col-xs,
   .col-xs-1,
   .col-xs-2,
@@ -917,11 +901,5 @@
 
   .col-lg-offset-11 {
     margin-left: 91.667%;
-  }
-}
-
-@media only screen and (min-width: 100em) {
-  .container {
-    max-width: 80rem;
   }
 }

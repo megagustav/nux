@@ -45,9 +45,8 @@ const hitTemplate = function(hit) {
 	const content = hit._highlightResult.html.value;
 	return `
 		<article class="hit">
-			<div class="mask"></div>
 			<a class="post-link" href="${url}"><div class="meta">${date}</span></div>
-			<a class="post-link" href="${url}"><h2>${title}</h2></a>
+			<a class="post-link" href="${url}"><h3>${title}</h3></a>
 			<a class="post-link" href="${url}"><p class="superficial">${content}</p></a>
 		</article>
 	`;

@@ -3,11 +3,13 @@
 		{%- if site.posts.size > 0 -%}
 			<h3>{{ page.list_title | default: "Updates" }}</h3>
 			{%- for post in site.posts -%}
-			<article>
-				<h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
-				{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-				<div class="meta">{{ post.date | date: date_format }}</div>
-			</article>
+			<a href="{{ post.url | relative_url }}" class="post">
+				<article>
+					<h4>{{ post.title | escape }}</h4>
+					{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+					<div class="meta">{{ post.date | date: date_format }}</div>
+				</article>
+			</a>
 			{%- endfor -%}
 		{%- endif -%}
 	</div>
