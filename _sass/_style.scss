@@ -828,14 +828,14 @@ nav.row > div {
   background: $background;
   background: darken($background, 2%);
   padding: $dist-md;
-}
-
-.contained div {
-  margin-bottom: $dist-md;
-}
-
-.contained div:last-of-type {
-  margin-bottom: unset;
+  
+  div {
+    margin-bottom: $dist-md;
+  
+    &:last-of-type {
+      margin-bottom: unset;
+    }
+  }
 }
 
 /* responsive */
@@ -860,7 +860,27 @@ nav.row > div {
     }
     
     .container.nav {
+      padding-top: unset !important;
       max-width: 87.4vw !important;
+    }
+    
+    section.search-hits:has(.hide-hits) {
+      display: none;
+    }
+    
+    section.search-hits {
+      margin-top: unset !important;
+      position: sticky !important;
+      top: $dist-xl + $dist-lg;
+      max-width: initial !important;
+      margin-left: calc((87.4vw - 84vw) / -2) !important;
+      right: unset !important;
+      overflow: scroll !important;
+      height: calc(100vh - 2.75rem);
+    }
+    
+    .hits-list {
+      overflow: scroll;
     }
     
     figure[class^=col] {
