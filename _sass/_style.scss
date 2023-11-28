@@ -1,5 +1,14 @@
 /* resets */
 
+* {
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+  padding-inline-start: unset;
+  transition: $time-sm ease-in-out;
+}
+
 html,
 body {
   margin: 0;
@@ -30,13 +39,18 @@ body {
   background-repeat: no-repeat;
 }
 
-* {
-  margin-block-start: unset;
-  margin-block-end: unset;
-  margin-inline-start: unset;
-  margin-inline-end: unset;
-  padding-inline-start: unset;
-  transition: $time-sm ease-in-out;
+body > .gradient {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: 
+  radial-gradient(at 0 0, rgba(desaturate($theme800, 1), 0.1) 0%, rgba($background, 0.1) 50%, rgba($background, 0.01) 100%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 .container {
