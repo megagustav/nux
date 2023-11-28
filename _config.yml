@@ -27,6 +27,7 @@ description: >-
 # baseurl: ""
 # url: "https://nux.institute"
 domain: nux.institute
+show_excerpts: true
 
 # Build settings
 theme: minima

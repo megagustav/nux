@@ -157,7 +157,8 @@ article footer:has(.references),
 }
 
 article header h4,
-aside h4 {
+aside h4,
+.posts h4 {
   font-size: $text-sm;
   font-weight: $weight-400;
   color: $theme800;
@@ -165,29 +166,39 @@ aside h4 {
   margin-bottom: unset;
 }
 
-aside a {
+.posts h4 {
+  font-size: $text-md;
+}
+
+aside a,
+.posts a {
   text-decoration: none;
 }
 
-aside article {
+aside article,
+.posts article {
   transition: 0.1s;
 }
 
-aside article:hover {
+aside article:hover,
+.posts article:hover {
   transition: 0.1s;
 }
 
-aside article:hover h4 {
+aside article:hover h4,
+.posts article:hover h4 {
   color: $theme900;
 }
 
-aside article:hover .meta {
+aside article:hover .meta,
+.posts article:hover .meta {
   color: $grey600;
 }
 
 article header h4 a,
-aside h4 a,
 nav ul li a,
+.posts h4 a,
+aside h4 a,
 h1 a,
 h2 a {
   text-decoration: none;
@@ -295,7 +306,9 @@ article ol li {
 }
 
 span.badge {
-  padding: $dist-xxs $dist-xs;
+  margin-top: -$dist-sm;
+  display: inline-block;
+  padding: $dist-xs $dist-xs $dist-xxxs $dist-xs;
   background: $grey500;
   border-radius: $rad-sm;
   color: $grey100;
@@ -626,7 +639,8 @@ input.search {
   padding: $dist-sm $dist-md;
 }
 
-aside {
+aside,
+.posts {
     margin-top: $dist-xxl;
 
   article {
@@ -751,7 +765,7 @@ nav.row > div {
 }
 
 .posts {
-  margin-top: $dist-xxxl;
+  margin-top: $dist-xl;
   margin-bottom: $dist-xxl;
 
   article {
@@ -764,10 +778,11 @@ nav.row > div {
     p.excerpt {
       text-overflow: ellipsis;
       overflow: hidden;
+      margin-top: $dist-md;
       display: -webkit-box;
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
-      background-image: linear-gradient(to bottom, $grey900, $grey200);
+      background-image: linear-gradient(to bottom, $grey700, transparent);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -1000,12 +1015,14 @@ nav.row > div {
     padding-left: $dist-md;
   }
   
-  aside a.post {
+  aside a.post,
+  .posts a {
     display: block;
     border-bottom: 1pt solid $theme300; 
   }
   
-  aside article {
+  aside article,
+  .posts article {
     transition: 0.1s;
     margin: $dist-sm -$dist-sm 0 -$dist-sm;
     padding: $dist-sm;
@@ -1013,11 +1030,18 @@ nav.row > div {
     border-bottom: unset
   }
   
-  aside article:first-of-type {
+  .posts article {
+    margin-top: $dist-xl !important;
+    margin-bottom: $dist-xl !important;
+  }
+  
+  aside article:first-of-type,
+  .posts article:first-of-type {
     margin-top: unset;
   }
   
-  aside article:hover {
+  aside article:hover,
+  .posts article:hover {
     background: $theme100;
   }
 }
@@ -1072,7 +1096,8 @@ nav.row > div {
     border-left: $line-sm solid $theme300;
   }
   
-  aside article {
+  aside article,
+  .posts article {
     margin: $dist-md -$dist-md 0 -$dist-md;
     padding: $dist-md;
     border-radius: $rad-md;
