@@ -161,7 +161,14 @@ aside article {
 
 aside article:hover {
   transition: 0.1s;
-  background: $theme100;
+}
+
+aside article:hover h4 {
+  color: $theme900;
+}
+
+aside article:hover .meta {
+  color: $grey600;
 }
 
 article header h4 a,
@@ -801,7 +808,11 @@ nav.row > div {
 @media only screen and (min-width: $content-small) {
   
   .container {
-    max-width: 94vw;
+    max-width: 92vw;
+  }
+  
+  .container.nav {
+    max-width: 96vw;
   }
   
   body > .gradient {
@@ -903,12 +914,13 @@ nav.row > div {
   }
   
   section.search-hits {
-    position: absolute;
+    position: fixed;
     z-index: 1;
+    top: 7rem;
     margin-left: unset;
     margin-right: unset;
-    max-width: 94vw - 0.666 * 94vw;
-    right: calc((100% - 94vw) / 2);
+    max-width: 92vw - 0.666 * 92vw;
+    right: calc((100% - 92vw) / 2);
   }
   
   input.search {
@@ -965,6 +977,27 @@ nav.row > div {
     padding-right: $dist-md;
     padding-left: $dist-md;
   }
+  
+  aside a.post {
+    display: block;
+    border-bottom: 1pt solid $theme300; 
+  }
+  
+  aside article {
+    transition: 0.1s;
+    margin: $dist-sm -$dist-sm 0 -$dist-sm;
+    padding: $dist-sm;
+    border-radius: $rad-md;
+    border-bottom: unset
+  }
+  
+  aside article:first-of-type {
+    margin-top: unset;
+  }
+  
+  aside article:hover {
+    background: $theme100;
+  }
 }
 
 @media only screen and (min-width: $content-medium) {
@@ -1015,6 +1048,12 @@ nav.row > div {
   aside {
     margin-top: unset;
     border-left: $line-sm solid $theme300;
+  }
+  
+  aside article {
+    margin: $dist-md -$dist-md 0 -$dist-md;
+    padding: $dist-md;
+    border-radius: $rad-md;
   }
 
   // nav.row {
