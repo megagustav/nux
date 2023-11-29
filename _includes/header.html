@@ -17,7 +17,7 @@
 {%- if page_paths -%}
   <div class="container nav">
     <nav class="row">
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
+      <div class="col-nav col-xs-12 col-sm-8 col-md-8 col-lg-7">
         <ul>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -31,7 +31,7 @@
           {%- endfor -%}
         </ul>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-offset-1 pad-0">
+      <div class="col-search col-xs-12 col-sm-4 col-md-4 col-lg-offset-1 pad-0">
         <input type="text" class="search" id="search-searchbar" placeholder="Search&#8230;">
       </div>
     </nav>
@@ -41,9 +41,13 @@
 <div class="container main">
   
   <section class="row search-hits" aria-label="Search Results">
-    <!-- <div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-8"> -->
-      <div class="hits-list hide-hits" id="search-hits"></div>
-    <!-- </div> -->
+    <div class="hits-list hide-hits" id="search-hits"></div>
+    <div class="hits-list hide-hits algolia">
+      <article class="hit">
+        <img class="logo" src="/assets/logo/algolia-blue.svg" alt="Search by Algolia" height="20" width="88" />
+        <span class="discreet">Search by Algolia</span>
+      </article>
+    </div>
   </section>
   
   {% include algolia.html %}

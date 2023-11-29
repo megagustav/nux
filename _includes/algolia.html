@@ -11,14 +11,19 @@ const search = instantsearch({
 function showResults() {
 	const input = document.querySelectorAll('#search-searchbar');
 	const hits  = document.querySelector('#search-hits');
+	const attr  = document.querySelector('.algolia');
 	input.forEach(function(el) {
 		el.addEventListener('input', function(e) {
 			if (e.target.value == "") {
 				hits.classList.remove('show-hits');
+				attr.classList.remove('show-hits');
 				hits.classList.add('hide-hits');
+				attr.classList.add('hide-hits');
 			} else {
 				hits.classList.remove('hide-hits');
+				attr.classList.remove('hide-hits');
 				hits.classList.add('show-hits');
+				attr.classList.add('show-hits');
 			}
 		});
 	});
