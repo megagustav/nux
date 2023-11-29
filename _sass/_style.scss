@@ -384,13 +384,13 @@ nav ul li:hover a {
 .hits-list {
   padding: $dist-xxs;
   border-radius: $rad-lg;
-  -webkit-backdrop-filter: blur($dist-xxs);
-  backdrop-filter: blur($dist-xxs);
-  background: rgba($theme100, 0.7);
+  -webkit-backdrop-filter: blur($dist-sm);
+  backdrop-filter: blur($dist-sm);
+  background: rgba($theme100, 0.8);
   background: 
-    linear-gradient(-30deg, rgba($theme100, 0.7) 0%, rgba($theme100, 0.94) 100%),
-    linear-gradient(0deg, rgba($brightest, 0.01) 80%, rgba($brightest, 0.4) 100%),
-    linear-gradient(170deg, rgba($brightest, 0.01) 50%, rgba($brightest, 1) 70%, rgba($brightest, 0.01) 90%);
+    linear-gradient(-30deg, rgba($theme100, 0.8) 0%, rgba($theme100, 0.94) 100%),
+    linear-gradient(0deg, rgba($brightest, 0.05) 80%, rgba($brightest, 0.55) 100%),
+    linear-gradient(170deg, rgba($brightest, 0.05) 50%, rgba($brightest, 1) 70%, rgba($brightest, 0.01) 90%);
 }
 
 .hits-list:has(.ais-hits__empty) {
@@ -518,9 +518,12 @@ article.hit a p:empty {
   display: none;
 }
 
+.algolia {
+  width: 100%;
+}
+
 .algolia,
 .algolia article.hit {
-  width: 100%;
   pointer-events: none;
   background: rgba(252, 250, 255, 0.86);
 }
@@ -942,6 +945,11 @@ nav.row > div {
     //margin-bottom: $dist-lg;
   }
   
+  .row {
+    position: relative;
+    z-index: 0;
+  }
+  
   .container.nav {
     padding-top: $dist-xxl;
     padding-bottom: unset;
@@ -1020,15 +1028,29 @@ nav.row > div {
     //width: calc(100% - $line-sm);
   }
   
-  section.search-hits {
-    position: fixed;
-    z-index: 1;
-    margin-top: -$dist-md;
-    margin-left: unset;
-    margin-right: unset;
-    max-width: calc(94vw - 0.666 * 92vw);
-    right: calc((100% - 92vw) / 2 - 2vw);
+  main {
+    width: 100%;
   }
+  
+  section.search-hits {
+    // position: fixed;
+    // z-index: 1;
+    // margin-top: -$dist-md;
+    // margin-left: unset;
+    // margin-right: unset;
+    // max-width: calc(94vw - 0.666 * 92vw);
+    // right: calc((100% - 92vw) / 2 - 2vw);
+    
+    height: 0;
+    position: sticky;
+    z-index: 2;
+    top: 5rem;
+    max-width: calc(94vw - 0.666 * 92vw);
+    margin-right: calc((100% - 92vw) / 2 - 2vw);
+    float: right;
+  }
+  
+  
   
   input.search {
     border-left: $line-sm solid $theme300;
@@ -1195,8 +1217,8 @@ nav.row > div {
   }
   
   section.search-hits {
-    max-width: 96vw - 0.666 * 96vw;
-    right: calc((100% - 96vw) / 2);
+    max-width: 80vw - 0.666 * 80vw;
+    margin-right: calc((100% - 80vw) / 2);
   }
   
   .hits-list {
