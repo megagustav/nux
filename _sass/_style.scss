@@ -1050,8 +1050,6 @@ nav.row > div {
     float: right;
   }
   
-  
-  
   input.search {
     border-left: $line-sm solid $theme300;
     padding: $dist-xs $dist-md;
@@ -1100,6 +1098,11 @@ nav.row > div {
   figure [class^=col] {
     padding-right: $dist-md;
     padding-left: $dist-md;
+  }
+  
+  aside,
+  .posts {
+    margin-top: unset;
   }
   
   aside a.post,
