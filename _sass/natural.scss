@@ -80,6 +80,11 @@ $blue700: #6060ff !default;
 $blue800: #3737fe !default;
 $blue900: #0000cb !default;
 
+$purple100: #e8ddf5 !default;
+$purple200: #D1B9EF !default;
+$purple500: #8365A9 !default;
+$purple900: #2F2B34 !default;
+
 $green400: #2bcd6b !default;
 $green500: #21be5f !default;
 
@@ -148,5 +153,6 @@ $shadow-4:  0 1px 2px rgba($blue900,0.06),
 @import
   "flexboxgrid",
   "style",
-  "syntax-highlighting"
+  "syntax-highlighting",
+  "darkmode"
 ;

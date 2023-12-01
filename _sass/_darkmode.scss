@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {	
+	
+	$theme100: $purple100;
+	$theme900: $purple900;
+	
+	body {
+		color: $theme100;
+		background: $theme900;
+	}
+
+	body a {
+		color: #FFB800;
+	}
+}
