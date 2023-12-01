@@ -1,14 +1,162 @@
 @media (prefers-color-scheme: dark) {	
 	
-	$theme100: $purple100;
-	$theme900: $purple900;
-	
 	body {
-		color: $theme100;
-		background: $theme900;
+		color: $purple100;
+		background: $purple999;
 	}
 
-	body a {
-		color: #FFB800;
+	a {
+		color: $orange400;
+		transition: 0.1s ease-in-out;
+	}
+	
+	a:hover {
+		color: $orange300;
+		transition: 0.1s ease-in-out;
+	}
+	
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5 {
+		color: $purple300;
+	}
+	
+	.contained {
+		background: $darkest;
+	}
+	
+	nav {
+		border-color: $purple900;
+		background: $purple800;
+	}
+	
+	nav ul li.active a {
+		color: $orange400;
+		background: $darkest;
+		border-color: $orange400;
+	}
+
+	nav ul li:not(.active):hover a,
+	article.hit:hover a h3 {
+		color: $orange200;
+	}
+	
+	.hits-list,
+	.algolia,
+	.algolia article.hit {
+		background: rgba($purple900, 0.8);
+		background: 
+			linear-gradient(-30deg, rgba($purple900, 0.8) 0%, rgba($purple900, 0.94) 100%),
+			linear-gradient(0deg, rgba($darkest, 0.05) 80%, rgba($darkest, 0.55) 100%),
+			linear-gradient(170deg, rgba($darkest, 0.05) 50%, rgba($darkest, 1) 70%, rgba($darkest, 0.01) 90%);
+	}
+	
+	article.hit:hover {
+		border-color: $purple800;
+		background: darken($purple900, 4);
+	}
+	
+	article header h4, 
+	aside h4, 
+	.posts h4 {
+		color: $orange400;
+	}
+	
+	aside article:hover h4,
+	.posts article:hover h4,
+	article.hit a h3 {
+		color: $orange300;
+	}
+	
+	aside article .meta, 
+	.posts article .meta,
+	.discreet, 
+	figcaption, 
+	p small, 
+	blockquote footer, 
+	article .meta {
+		color: $purple300;
+	}
+	
+	aside article:hover .meta, 
+	.posts article:hover .meta {
+		color: $purple200;
+	}
+	
+	.posts article p.excerpt,
+	article.hit a p,
+	article.hit p {
+		background-image: linear-gradient(to bottom, $purple100, transparent);
+	}
+	
+	.ais-Highlight {
+		background: $orange400;
+		color: $darkest;
+	}
+	
+	input {
+		color: $purple100;
+	}
+	
+	input:focus {
+		background: $darkest;
+		color: $purple100;
+	}
+	
+	input:focus::placeholder {
+		color: $purple800;
+	}
+	
+	input::placeholder {
+		color: $purple600;
+	}
+	
+	input.search {
+		border-color: $purple900;
+	}
+	
+	
+	@media only screen and (min-width: $content-small) {
+		.container.nav {
+			background: linear-gradient(180deg, rgba($purple999,0.8) 0%, rgba($purple999,0.5) 50%, rgba($purple999,0.3) 80%, rgba($purple999,0) 100%);
+		}
+		
+		nav {
+			background: rgba($purple900, 0.7);
+			background: 
+				linear-gradient(-30deg, rgba($purple900, 0.7) 0%, rgba($purple900, 0.94) 100%),
+				linear-gradient(0deg, rgba($darkest, 0.01) 80%, rgba($darkest, 0.4) 100%),
+				linear-gradient(170deg, rgba($darkest, 0.01) 50%, rgba($darkest, 1) 70%, rgba($darkest, 0.01) 90%);
+			box-shadow: $shadow-4;
+		}
+		
+		nav ul li a:hover,
+		input.search:hover {
+			background: $darkest;
+			border-color: $purple900;
+		}
+		
+		nav ul li.active a,
+		nav ul li.active a:hover {
+			border-color: $orange400;
+		}
+		
+		aside a.post,
+		.posts a {
+			border-color: $purple900; 
+		}
+		
+		aside article:hover, 
+		.posts article:hover {
+			background: $purple900;
+		}
+	}
+	
+	@media only screen and (min-width: $content-medium) {
+		aside {
+			border-color: $purple900;
+		}
 	}
 }
