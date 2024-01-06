@@ -125,7 +125,8 @@ article ol {
 p,
 li,
 figcaption,
-blockquote {
+blockquote,
+img.small {
   max-width: $width-chars;
 }
 
@@ -1164,7 +1165,8 @@ nav.row > div {
   p,
   li,
   figcaption,
-  blockquote {
+  blockquote,
+  img.small {
     max-width: calc(80vw - 4rem - 16.667%);
   }
 
@@ -1283,7 +1285,11 @@ nav.row > div {
     margin-left: 16.667%;
   }
 
-  p, li, figcaption, blockquote {
+  p, 
+  li, 
+  figcaption, 
+  blockquote,
+  img.small {
     max-width: $width-chars;
   }
 

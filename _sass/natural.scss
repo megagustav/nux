@@ -132,8 +132,8 @@ $brightest: #ffffff !default;
 $darkest: darken($purple999, 3) !default;
 
 /* shadows */
-$shadow-1:  0 1px 2px rgba($blue900,0.12), 
-            0 2px 4px rgba($blue900,0.12) !default;
+$shadow-1:  0 1px 2px rgba($grey900,0.12), 
+            0 2px 4px rgba($grey900,0.12) !default;
 $shadow-2:  0 1px 2px rgba($blue900,0.09), 
             0 2px 4px rgba($blue900,0.09), 
             0 4px 8px rgba($blue900,0.09) !default;
