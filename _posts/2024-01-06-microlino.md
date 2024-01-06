@@ -96,7 +96,7 @@ I wish Micro had solved this differently. An e-ink screen would have been better
 
 <figure>
 	<img src="/assets/img/microlino/microlino_12.jpg" alt="Driving mode dial is great" width="1800" height="1200"/>
-	<figcaption>This is a retro back.</figcaption>
+	<figcaption>Rotary innovation.</figcaption>
 </figure>
 
 And yet, there *are* romantic quirks: the [Banzai Bill](https://www.mariowiki.com/Banzai_Bill) on the *Sport* button of the driving mode knob, the stretchy pockets for storage, the simple mechanical key, and of course the whole exterior.
