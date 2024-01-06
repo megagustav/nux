@@ -111,7 +111,7 @@ The dial feels great, and is easily within reach. Should this prime location be 
 
 It's anatomically impossible to close the door with the seatbelt fastend. The vegan leather pull strap is a nice idea, contrasting the understated interior with a premium-looking affordance. The execution could be improved upon. Why no Swiss Pantone 485C accent colour here? And the proportions of the flag are wrong, the cross should have more white space around it.
 
-The phone clamp has a tight grip but it too could be better. The construction is flimsy and the placement seems like an afterthought. Judging by the concept, it's everything *but* an afterthought, it's central to the driver experience.
+The phone clamp has a tight grip but it too could be better. The construction is flimsy and the placement seems like an afterthought. Judging by the 2020 concept version, it's everything *but* an afterthought, it's central to the driver experience.
 
 <figure>
 	<img src="/assets/img/microlino/microlino_7.jpg" alt="Microlino with the door ajar" width="1800" height="1200"/>
