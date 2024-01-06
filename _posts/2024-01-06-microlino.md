@@ -120,4 +120,4 @@ The phone clamp has a tight grip but it too could be better. The construction is
 
 There are no luxuries here. No power steering. The screens are low-resolution LCD panels. No airbags. No seat heating, no electric windows, no automatic remote opening of anything, poor cabin isolation, inconsistent interfaces, suboptimal ergonomics. It's overpriced and flawed.
 
-But none of that really matters once you zip this thing through an ancient, winding European town, up meandering vineyards. Curves are *fun*. It feels like the Microlino will overturn in corners, but it *doesn't*! It's adorable. It's *round*. It's the urban mobility antidote. The Microlino brings joy to the world.
+But none of that really matters when you zip this thing through an ancient, winding town, up meandering vineyards. Curves are *fun*. It feels like the Microlino will overturn in corners, but it *doesn't*! It's adorable. It's *round*. It's an urban mobility antidote, a cozy cabin of personal transportation. The Microlino brings joy to the world.
