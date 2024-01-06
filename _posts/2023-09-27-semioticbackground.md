@@ -4,6 +4,7 @@ title:  How Semiotic Communication Occurs in Current Automobiles
 date:   2023-11-08 12:03:36 +0100
 categories: pub
 status: Draft
+permalink: semiotic_background
 ---
 
 #### Background
