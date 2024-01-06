@@ -19,10 +19,13 @@
 	
 	h1, 
 	h2, 
-	h3, 
+	h3 {
+		color: $purple100;
+	}
+	
 	h4, 
 	h5 {
-		color: $purple100;
+		color: $purple500;
 	}
 	
 	.contained {
@@ -31,7 +34,7 @@
 	
 	nav {
 		border-color: $purple900;
-		background: $purple800;
+		background: $darkest;
 		box-shadow: $shadow-dark-3 !important;
 	}
 	
@@ -90,7 +93,7 @@
 	p small, 
 	blockquote footer, 
 	article .meta {
-		color: $purple500;
+		color: desaturate($purple500, 12);
 	}
 	
 	aside article:hover .meta, 
@@ -119,11 +122,11 @@
 	}
 	
 	input:focus::placeholder {
-		color: $purple800;
+		color: $purple300;
 	}
 	
 	input::placeholder {
-		color: $purple600;
+		color: $purple500;
 	}
 	
 	input.search {
