@@ -410,7 +410,7 @@ section.search-hits {
   display: flex;
   //overflow: hidden;
   margin-top: -$dist-lg;
-  box-shadow: $shadow-4;
+  box-shadow: $shadow-3;
   margin-left: $dist-md;
   margin-right: $dist-md;
   max-width: 30rem;
@@ -969,7 +969,7 @@ nav.row > div {
       linear-gradient(-30deg, rgba($theme100, 0.7) 0%, rgba($theme100, 0.94) 100%),
       linear-gradient(0deg, rgba($brightest, 0.01) 80%, rgba($brightest, 0.4) 100%),
       linear-gradient(170deg, rgba($brightest, 0.01) 50%, rgba($brightest, 1) 70%, rgba($brightest, 0.01) 90%);
-    box-shadow: $shadow-4;
+    box-shadow: $shadow-3;
   }
   
   @media only screen and (max-width: $content-medium) {

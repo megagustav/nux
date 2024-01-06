@@ -5,12 +5,14 @@
 		background: $purple999;
 	}
 
-	a {
+	a,
+	.discreet a {
 		color: $orange400;
 		transition: 0.1s ease-in-out;
 	}
 	
-	a:hover {
+	a:hover,
+	.discreet a:hover {
 		color: $orange300;
 		transition: 0.1s ease-in-out;
 	}
@@ -20,16 +22,17 @@
 	h3, 
 	h4, 
 	h5 {
-		color: $purple300;
+		color: $purple100;
 	}
 	
 	.contained {
-		background: $darkest;
+		background: $dark;
 	}
 	
 	nav {
 		border-color: $purple900;
 		background: $purple800;
+		box-shadow: $shadow-dark-3 !important;
 	}
 	
 	nav ul li.active a {
@@ -53,9 +56,19 @@
 			linear-gradient(170deg, rgba($darkest, 0.05) 50%, rgba($darkest, 1) 70%, rgba($darkest, 0.01) 90%);
 	}
 	
+	span.badge {
+		background: $purple900; 
+		color: $purple200;
+	}
+	
+	aside article,
+	.posts article {
+		border-color: $purple900;
+	}
+	
 	article.hit:hover {
 		border-color: $purple800;
-		background: darken($purple900, 4);
+		background: $darkest;
 	}
 	
 	article header h4, 
@@ -77,7 +90,7 @@
 	p small, 
 	blockquote footer, 
 	article .meta {
-		color: $purple300;
+		color: $purple500;
 	}
 	
 	aside article:hover .meta, 
@@ -117,6 +130,11 @@
 		border-color: $purple900;
 	}
 	
+	img,
+	iframe {
+		box-shadow: $shadow-dark-1;
+	}
+	
 	
 	@media only screen and (min-width: $content-small) {
 		.container.nav {
@@ -129,7 +147,7 @@
 				linear-gradient(-30deg, rgba($purple900, 0.7) 0%, rgba($purple900, 0.94) 100%),
 				linear-gradient(0deg, rgba($darkest, 0.01) 80%, rgba($darkest, 0.4) 100%),
 				linear-gradient(170deg, rgba($darkest, 0.01) 50%, rgba($darkest, 1) 70%, rgba($darkest, 0.01) 90%);
-			box-shadow: $shadow-4;
+			box-shadow: $shadow-3;
 		}
 		
 		nav ul li a:hover,
@@ -150,7 +168,7 @@
 		
 		aside article:hover, 
 		.posts article:hover {
-			background: $purple900;
+			background: $darkest;
 		}
 	}
 	

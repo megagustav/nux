@@ -89,7 +89,7 @@ $purple600: #8365A9 !default;
 $purple700: #6a5387 !default;
 $purple800: #5b4478 !default;
 $purple900: #3e3549 !default;
-$purple999: #2F2B34 !default;
+$purple999: #131115 !default;
 
 $green400: #2bcd6b !default;
 $green500: #21be5f !default;
@@ -141,13 +141,20 @@ $shadow-3:  0 1px 2px rgba($blue900,0.06),
             0 2px 4px rgba($blue900,0.05), 
             0 4px 8px rgba($blue900,0.04), 
             0 8px 16px rgba($blue900,0.03),
-            0 16px 32px rgba($blue900,0.02) !default;
-$shadow-4:  0 1px 2px rgba($blue900,0.06), 
-            0 2px 4px rgba($blue900,0.05), 
-            0 4px 8px rgba($blue900,0.04), 
-            0 8px 16px rgba($blue900,0.03),
             0 16px 32px rgba($blue900,0.02), 
             0 32px 64px rgba($blue900,0.01) !default;
+            
+$shadow-dark-1: 0 1px 2px rgba($dark,0.95), 
+                0 2px 4px rgba($dark,0.95) !default;
+$shadow-dark-2: 0 1px 2px rgba($darkest,0.04), 
+                0 2px 4px rgba($darkest,0.04), 
+                0 4px 8px rgba($darkest,0.04) !default;
+$shadow-dark-3: 0 1px 2px rgba($darkest,0.25), 
+                0 2px 4px rgba($darkest,0.2), 
+                0 4px 8px rgba($darkest,0.15), 
+                0 8px 16px rgba($darkest,0.1),
+                0 16px 32px rgba($darkest,0.05), 
+                0 32px 64px rgba($darkest,0.05) !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
