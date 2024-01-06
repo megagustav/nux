@@ -3,7 +3,7 @@ layout: post
 title:  Microlino (2023) Impressions
 date:   2024-01-06 09:00:00 +0100
 categories: blog
-permalink: microlino
+permalink: blog/microlino
 ---
 
 <figure>
