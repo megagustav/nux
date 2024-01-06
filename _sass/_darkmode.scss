@@ -34,7 +34,7 @@
 	
 	nav {
 		border-color: $purple900;
-		background: $darkest;
+		background: darken($purple900, 7);
 		box-shadow: $shadow-dark-3 !important;
 	}
 	
