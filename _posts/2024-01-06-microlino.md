@@ -70,7 +70,7 @@ On the subject of parking, this is where the bubble shines. The manufacturer cla
 
 It just blends in anywhere. Okay, maybe not if you get the orange one. You'll be forgiven to briefly stop on a sidewalk, passersby look at this bubble with joy and wonder.
 
-The Polestar attracted gazes of admiration — it looks cool. When people see the Microlino they smile. They smile, and elbow their partner and go *hey, check it out, it's one of those little cars, do you think it's even road legal?* Yes. Yes, it is. But I'm not sure it classifies as a *car*.
+The Polestar attracts gazes of admiration — it looks cool. When people see the Microlino they smile. They smile, and elbow their partner and go *hey, check it out, it's one of those little cars, do you think it's even road legal?* Yes. Yes, it is. But I'm not sure it classifies as a *car*.
 
 <figure>
 	<img src="/assets/img/microlino/microlino_6.jpg" alt="Interior leg room is little" width="1800" height="1200"/>
@@ -109,7 +109,7 @@ The dial feels great, and is easily within reach. Should this prime location be 
 	<figcaption>It's a stretch.</figcaption>
 </figure>
 
-It's anatomically impossible to close the door while the seatbelt is fastend. The vegan leather pull strap is a nice idea, contrasting the understated interior with a premium-looking affordance. The execution could be improved upon. Why no Swiss Pantone 485C accent colour here? And the proportions of the flag are wrong, the cross should have more white space around it.
+It's anatomically impossible to close the door with the seatbelt fastend. The vegan leather pull strap is a nice idea, contrasting the understated interior with a premium-looking affordance. The execution could be improved upon. Why no Swiss Pantone 485C accent colour here? And the proportions of the flag are wrong, the cross should have more white space around it.
 
 The phone clamp has a tight grip but it too could be better. The construction is flimsy and the placement seems like an afterthought. Judging by the concept, it's everything *but* an afterthought, it's central to the driver experience.
 
