@@ -18,18 +18,18 @@ The steering wheel feels like something I’d connect to a PlayStation 2. The ab
 	<figcaption>This is a retro back.</figcaption>
 </figure>
 
-This is not, unfortunately, a multi-day review. I only had about an hour with the Microlino during my test ride. It’s enough for first impressions, but now I’m left with more questions than before. Questions like: Why does this thing have a screen, let alone two? What if it rains? How do I open the trunk? How do I open the door from the inside? What about the outside?
+This is not, unfortunately, a multi-day review. I only had about an hour with the Microlino during my test ride. It’s enough for first impressions, but now I’m left with more questions than before. Questions like: Why does this thing have a screen, let alone two? How do I open the trunk? How do I open the door from the inside? What about the outside? What if it rains?
 
 I was able to answer some of these questions myself, and others, I’m confident, could have been answered if I’d had more time with the vehicle.
 
-During the concept stage it had a cluster screen, complete with navigation. Additionally, on the door handle, it had an array of physical buttons for the windshield heating or warning lights, in lieu of the narrow display found on the release model.
+In 2020, during the concept stage, the Microlino 2.0 had a cluster screen, complete with navigation. Additionally, on the door handle, it had an array of physical buttons for the windshield heating or warning lights, in lieu of the narrow display found on the release model. To the right of the buttons was (and is today) a phone holder, and finally, the pull strap.
 
 <figure class="inline right">
 	<img src="/assets/img/microlino/microlino_15.jpg" alt="Microlino 2.0 Concept" width="1800" height="1200"/>
 	<figcaption>Image: Micro Mobility Systems</figcaption>
 </figure>
 
-I applaud the choice of simply using the phone for navigation, and the little guy comes with a bluetooth speaker for media playback. Like the Citroën Ami, Micro trust us to bring better hardware than they could integrate at that price. However, I condemn the little touchscreen strip that replace those pleasantly tactile buttons. 
+But today, the main display is more rudimentary, and I applaud the choice of simply relying on the phone for navigation, and the bubbly EV comes with a bluetooth speaker for media playback. Like the Citroën Ami, Micro trusts us to bring better hardware than they could integrate at that price. However, I condemn the little touchscreen strip that replaced those pleasantly tactile buttons. 
 
 The continuity of the handlebar found on the concept fits the character so much more than cheap screen. On the concept as well as the production model: a hidden button to open the door from the inside, awkwardly placed near the phone mount, without enough clearance for an ergonomic press.
 
