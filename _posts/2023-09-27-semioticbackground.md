@@ -70,8 +70,8 @@ The document uncovers usability best-practices which are commonplace today, such
 		<figcaption>2003 Volkswagen Golf Dashboard</figcaption>
 	</figure>
 	<figure class="col-sm-4">
-		<img width="930" height="750" src="/assets/img/semioticbackground/2017teslamodel3.jpg" alt="2007 Tesla Model 3 Dashboard" />
-		<figcaption>2007 Tesla Model 3 Dashboard</figcaption>
+		<img width="930" height="750" src="/assets/img/semioticbackground/2017teslamodel3.jpg" alt="2017 Tesla Model 3 Dashboard" />
+		<figcaption>2017 Tesla Model 3 Dashboard</figcaption>
 	</figure>
 </div>
 
