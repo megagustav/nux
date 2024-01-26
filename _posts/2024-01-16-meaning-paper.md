@@ -4,7 +4,7 @@ title:  A vocabulary of meaning of designed commercial artefacts based on natura
 date:   2024-01-16 09:00:00 +0100
 categories: pub
 status: Pending Publication
-permalink: meaning
+permalink: meaning-paper
 ---
 
 #### Abstract
@@ -14,13 +14,13 @@ This study is a survey of the English language words which are used when speakin
 <figure>
 	<div class="row contained">
 		<div class="col-md-4">
-			<img src="https://moor.house/files/meaning/meaning_paper_function.jpg" alt="Semantic Network for Function" width="1200" height="1800"/>
+			<img src="https://moor.house/files/meaning/meaning_paper_function.jpg" alt="Semantic Network Graph for Function" width="1200" height="1800"/>
 		</div>
 		<div class="col-md-4">
-			<img src="https://moor.house/files/meaning/meaning_paper_ritual.jpg" alt="Semantic Network for Ritual" width="1200" height="1800"/>
+			<img src="https://moor.house/files/meaning/meaning_paper_ritual.jpg" alt="Semantic Network Graph for Ritual" width="1200" height="1800"/>
 		</div>
 		<div class="col-md-4">
-			<img src="https://moor.house/files/meaning/meaning_paper_myth.jpg" alt="Semantic Network for Myth" width="1200" height="1800"/>
+			<img src="https://moor.house/files/meaning/meaning_paper_myth.jpg" alt="Semantic Network Graph for Myth" width="1200" height="1800"/>
 		</div>
 	</div>
 	<figcaption>Fig. 2–4: Semantically related words and macro-components of meaning</figcaption>
