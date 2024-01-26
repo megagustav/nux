@@ -130,6 +130,10 @@ img.small {
   max-width: $width-chars;
 }
 
+h1.post-title {
+  max-width: $width-chars - 24ch;
+}
+
 p + ul,
 p + ol {
   margin-top: -$dist-md;
