@@ -2,8 +2,9 @@
 layout: post
 title:  Microlino (2023) Impressions
 date:   2024-01-06 09:00:00 +0100
-categories: blog
-permalink: blog/microlino
+categories: reviews
+permalink: reviews/microlino
+image: microlino/microlino_14.jpg
 ---
 
 <figure>
@@ -29,7 +30,7 @@ In 2020, during the concept stage, the Microlino 2.0 had a cluster screen, compl
 	<figcaption>Image: Micro Mobility Systems</figcaption>
 </figure>
 
-But today, the main display is more rudimentary, and I applaud the choice of simply relying on the phone for navigation, and the bubbly EV comes with a bluetooth speaker for media playback. Like the Citroën Ami, Micro trusts us to bring better hardware than they could integrate at that price. However, I condemn the little touchscreen strip that replaced those pleasantly tactile buttons. 
+But today, the main display is more rudimentary, and I applaud the choice of simply relying on the phone for navigation, and the bubbly EV comes with a bluetooth speaker for media playback. Like the Citroën Ami, Micro trusts us to bring better hardware than they could integrate at that price. However, I condemn the little touchscreen strip that replaced those pleasantly tactile buttons.
 
 The continuity of the handlebar found on the concept fits the character so much more than cheap screen. On the concept as well as the production model: a hidden button to open the door from the inside, awkwardly placed near the phone mount, without enough clearance for an ergonomic press.
 
@@ -91,7 +92,7 @@ In terms of displays, the Microlino shows restraint, handing over most of the sm
 	<figcaption>The&hellip; <i>center</i> screen?</figcaption>
 </figure>
 
-This thing though? It should not be there. An hour of testing didn't justify its existence. There are no settings for the temperature and windshield headers besides on and off. A simple physical toggle switch, like on the concept, would have been preferable. There is a *settings* menu I didn't explore, but I'd argue that anything more complicated than a toggle should exist within a companion app rather than this tiny LCD panel. 
+This thing though? It should not be there. An hour of testing didn't justify its existence. There are no settings for the temperature and windshield headers besides on and off. A simple physical toggle switch, like on the concept, would have been preferable. There is a *settings* menu I didn't explore, but I'd argue that anything more complicated than a toggle should exist within a companion app rather than this tiny LCD panel.
 
 I wish Micro had solved this differently. An e-ink screen would have been better, or one of these monochrome displays found on 3D printers. The current implementation is trying, and failing, to be fancy. If the reason was to save money, they should have gone the other way, and used a charming low-cost, low-res, low-tech screen.
 

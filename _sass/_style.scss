@@ -719,6 +719,10 @@ img.screenshot {
   border-radius: $rad-lg;
 }
 
+.posts img {
+  margin-top: $dist-sm;
+}
+
 article figure {
   margin-top: $dist-xxl;
   margin-bottom: $dist-xxl;
@@ -798,7 +802,7 @@ nav.row > div {
     p.excerpt {
       text-overflow: ellipsis;
       overflow: hidden;
-      margin-top: $dist-md;
+      margin-top: $dist-xs;
       display: -webkit-box;
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
@@ -806,6 +810,18 @@ nav.row > div {
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
+    }
+  }
+
+  @media only screen and (min-width: $content-small) {
+    .post:nth-of-type(odd) {
+      padding-left: unset;
+      padding-right: $dist-md;
+    }
+
+    .post:nth-of-type(even) {
+      padding-right: unset;
+      padding-left: $dist-md;
     }
   }
 }

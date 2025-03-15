@@ -2,7 +2,7 @@
 	<div class="blog">
 		{%- if site.posts.size > 0 -%}
 			<h3>{{ page.list_title | default: "Updates" }}</h3>
-			{%- for post in site.posts -%}
+			{%- for post in site.posts limit:5 -%}
 			<a href="{{ post.url | relative_url }}" class="post">
 				<article>
 					<h4>{{ post.title | escape }}</h4>

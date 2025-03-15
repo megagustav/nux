@@ -8,27 +8,30 @@ layout: layout_default
   {%- endif -%}
 
   {{ content }}
-  
+
   <hr>
 
   {%- if site.posts.size > 0 -%}
-    <div class="posts">
+    <div class="row posts">
       {%- for post in site.categories[page.data] -%}
-      <a href="{{ post.url | relative_url }}">
-        <article>
-          <h4>
-            {{ post.title | escape }}
-            {%- if post.status -%}
-              <span class="badge">{{ post.status }}</span>
+      <div class="post col-sm-12 col-md-6">
+        <a href="{{ post.url | relative_url }}">
+          <article>
+            <h4>
+              {{ post.title | escape }}
+              {%- if post.status -%}
+                <span class="badge">{{ post.status }}</span>
+              {%- endif -%}
+            </h4>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <div class="meta">{{ post.date | date: date_format }}</div>
+            <img alt="img here" src="{{ site.baseurl }}/assets/img/{{ post.image }}" />
+            {%- if site.show_excerpts -%}
+              <p class="excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
             {%- endif -%}
-          </h4>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <div class="meta">{{ post.date | date: date_format }}</div>
-          {%- if site.show_excerpts -%}
-            <p class="excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
-          {%- endif -%}
-        </article>
-      </a>
+          </article>
+        </a>
+      </div>
       {%- endfor -%}
     </div>
 

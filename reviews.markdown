@@ -1,8 +1,8 @@
 ---
 layout: loop
-data: blog
-title: Blog
-permalink: /blog/
+data: reviews
+title: Reviews
+permalink: /reviews/
 order: 3
 ---
 
