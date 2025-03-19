@@ -1,5 +1,5 @@
 ---
-layout: loop
+layout: loop-pub
 data: pub
 title: Publications
 permalink: /pub/
