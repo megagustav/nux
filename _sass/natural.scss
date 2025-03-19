@@ -61,6 +61,7 @@ $rad-xs: 0.15rem !default;
 $rad-sm: 0.3rem !default;
 $rad-md: 0.5rem !default;
 $rad-lg: 0.72rem !default;
+$rad-xl: 3rem !default;
 
 /* animation */
 
@@ -132,28 +133,28 @@ $brightest: #ffffff !default;
 $darkest: darken($purple999, 3) !default;
 
 /* shadows */
-$shadow-1:  0 1px 2px rgba($grey900,0.12), 
+$shadow-1:  0 1px 2px rgba($grey900,0.12),
             0 2px 4px rgba($grey900,0.12) !default;
-$shadow-2:  0 1px 2px rgba($blue900,0.09), 
-            0 2px 4px rgba($blue900,0.09), 
+$shadow-2:  0 1px 2px rgba($blue900,0.09),
+            0 2px 4px rgba($blue900,0.09),
             0 4px 8px rgba($blue900,0.09) !default;
-$shadow-3:  0 1px 2px rgba($blue900,0.06), 
-            0 2px 4px rgba($blue900,0.05), 
-            0 4px 8px rgba($blue900,0.04), 
+$shadow-3:  0 1px 2px rgba($blue900,0.06),
+            0 2px 4px rgba($blue900,0.05),
+            0 4px 8px rgba($blue900,0.04),
             0 8px 16px rgba($blue900,0.03),
-            0 16px 32px rgba($blue900,0.02), 
+            0 16px 32px rgba($blue900,0.02),
             0 32px 64px rgba($blue900,0.01) !default;
-            
-$shadow-dark-1: 0 1px 2px rgba($dark,0.95), 
+
+$shadow-dark-1: 0 1px 2px rgba($dark,0.95),
                 0 2px 4px rgba($dark,0.95) !default;
-$shadow-dark-2: 0 1px 2px rgba($darkest,0.04), 
-                0 2px 4px rgba($darkest,0.04), 
+$shadow-dark-2: 0 1px 2px rgba($darkest,0.04),
+                0 2px 4px rgba($darkest,0.04),
                 0 4px 8px rgba($darkest,0.04) !default;
-$shadow-dark-3: 0 1px 2px rgba($darkest,0.25), 
-                0 2px 4px rgba($darkest,0.2), 
-                0 4px 8px rgba($darkest,0.15), 
+$shadow-dark-3: 0 1px 2px rgba($darkest,0.25),
+                0 2px 4px rgba($darkest,0.2),
+                0 4px 8px rgba($darkest,0.15),
                 0 8px 16px rgba($darkest,0.1),
-                0 16px 32px rgba($darkest,0.05), 
+                0 16px 32px rgba($darkest,0.05),
                 0 32px 64px rgba($darkest,0.05) !default;
 
 @mixin media-query($device) {

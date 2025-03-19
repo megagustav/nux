@@ -716,6 +716,11 @@ img.logo {
 }
 
 img.screenshot {
+  border-radius: $rad-xl;
+  //border: $line-lg $grey700 solid;
+}
+
+img.screenshot__mac {
   border-radius: $rad-lg;
 }
 
