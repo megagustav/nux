@@ -3,7 +3,6 @@ layout: publication
 title:  A vocabulary of meaning of designed commercial artefacts based on naturally occurring language use
 date:   2024-01-16 09:00:00 +0100
 categories: pub
-status: Pending Publication
 permalink: meaning-paper
 ---
 
