@@ -716,7 +716,10 @@ img.logo {
 }
 
 img.screenshot {
-  border-radius: $rad-xl;
+  @media only screen and (min-width: $content-small) {
+    border-radius: $rad-xl;
+  }
+  border-radius: $rad-xxl;
   //border: $line-lg $grey700 solid;
 }
 
