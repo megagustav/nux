@@ -388,7 +388,7 @@ nav ul li:hover a {
 
 .hits-list {
   padding: $dist-xxs;
-  border-radius: $rad-lg;
+  border-radius: $rad-md;
   -webkit-backdrop-filter: blur($dist-sm);
   backdrop-filter: blur($dist-sm);
   background: rgba($theme100, 0.8);
@@ -400,7 +400,7 @@ nav ul li:hover a {
 
 .hits-list:has(.ais-hits__empty) {
   width: 100%;
-  border-radius: $rad-lg;
+  border-radius: $rad-md;
   background: rgba($orange100, 0.7);
 }
 
@@ -410,7 +410,7 @@ nav ul li:hover a {
 
 section.search-hits {
   width: calc(100% - 2rem);
-  border-radius: $rad-lg;
+  border-radius: $rad-md;
   display: flex;
   //overflow: hidden;
   margin-top: -$dist-lg;
@@ -435,7 +435,7 @@ article.hit,
 .ais-hits__empty {
   //height: 6.4rem;
   overflow: hidden;
-  border-radius: $rad-md;
+  border-radius: $rad-sm;
   //background: $theme100;
   border: $line-md solid transparent;
   transition: 0.2s ease-in-out;
@@ -601,6 +601,10 @@ hr {
   border-top: $line-sm solid $grey200;
 }
 
+article hr {
+  margin-bottom: $dist-xl;
+}
+
 svg.svg-inline--fa {
   margin-right: $dist-xxs;
   fill: $grey600;
@@ -715,16 +719,38 @@ img.logo {
   box-shadow: unset;
 }
 
-img.screenshot {
+img.screenshot.ios {
+  border-radius: $rad-xl;
+
   @media only screen and (min-width: $content-small) {
+    border-radius: $rad-lg;
+  }
+
+  @media only screen and (min-width: $content-large) {
     border-radius: $rad-xl;
   }
-  border-radius: $rad-xxl;
+
   //border: $line-lg $grey700 solid;
+
+  // @supports (clip-path: shape(from 0% 0%, close)) {
+  //   clip-path: shape(
+  //     from center top,
+  //     hline to calc(100% - 5cqh),
+  //     smooth to right 5cqh with 100% 0%,
+  //     vline to calc(100% - 5cqh),
+  //     smooth to calc(100% - 5cqh) bottom with 100% 100%,
+  //     hline to 5cqh,
+  //     smooth to left calc(100% - 5cqh) with 0% 100%,
+  //     vline to 5cqh,
+  //     smooth to 5cqh top with 0% 0%,
+  //     hline to center,
+  //     close);
+  //   box-shadow: unset;
+  // }
 }
 
-img.screenshot__mac {
-  border-radius: $rad-lg;
+img.screenshot.mac {
+  border-radius: $rad-md;
 }
 
 .posts img {
@@ -1013,7 +1039,7 @@ nav.row > div {
   }
 
   nav.row {
-    border-radius: $rad-lg;
+    border-radius: $rad-md;
   }
 
   nav.row > div {
@@ -1038,7 +1064,7 @@ nav.row > div {
     padding: $dist-xs $dist-md;
     margin: -$line-md;
     border: $line-md solid rgba($theme200, 0);
-    border-radius: $rad-lg;
+    border-radius: $rad-md;
   }
 
   nav ul li a:hover,
@@ -1086,14 +1112,14 @@ nav.row > div {
     border-bottom: unset;
     margin-bottom: unset;
     line-height: unset;
-    // border-top-right-radius: $rad-lg;
-    // border-bottom-right-radius: $rad-lg;
-    border-radius: $rad-lg;
+    // border-top-right-radius: $rad-md;
+    // border-bottom-right-radius: $rad-md;
+    border-radius: $rad-md;
     transition: 0.1s;
   }
 
   .warning {
-    border-radius: $rad-md;
+    border-radius: $rad-sm;
     border: $line-sm solid $orange500;
   }
 
@@ -1144,7 +1170,7 @@ nav.row > div {
     transition: 0.1s;
     margin: $dist-sm -$dist-sm 0 -$dist-sm;
     padding: $dist-sm;
-    border-radius: $rad-md;
+    border-radius: $rad-sm;
     border-bottom: unset
   }
 
@@ -1186,7 +1212,8 @@ nav.row > div {
   .single blockquote,
   .single ul,
   .single ol,
-  .single footer {
+  .single footer,
+  .single hr {
     margin-left: 8.333%;
   }
 
@@ -1194,7 +1221,8 @@ nav.row > div {
   li,
   figcaption,
   blockquote,
-  img.small {
+  img.small,
+  hr {
     max-width: calc(80vw - 4rem - 16.667%);
   }
 
@@ -1222,7 +1250,7 @@ nav.row > div {
   .posts article {
     margin: $dist-md -$dist-md 0 -$dist-md;
     padding: $dist-md;
-    border-radius: $rad-md;
+    border-radius: $rad-sm;
   }
 
   // nav.row {
@@ -1309,7 +1337,8 @@ nav.row > div {
   .single blockquote,
   .single ul,
   .single ol,
-  .single footer {
+  .single footer,
+  .single hr {
     margin-left: 16.667%;
   }
 
@@ -1317,7 +1346,8 @@ nav.row > div {
   li,
   figcaption,
   blockquote,
-  img.small {
+  img.small,
+  hr {
     max-width: $width-chars;
   }
 
@@ -1375,7 +1405,8 @@ nav.row > div {
   .single blockquote,
   .single ul,
   .single ol,
-  .single footer {
+  .single footer,
+  .single hr {
     margin-left: 22%;
   }
 
